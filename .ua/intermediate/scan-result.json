@@ -1,0 +1,921 @@
+{
+  "name": "llm-gateway",
+  "description": "A small, learning-oriented OpenAI-compatible LLM gateway that routes requests to OpenAI or Anthropic, providing virtual keys, usage and cost tracking, rate limits, budgets, retries, fallback, a circuit breaker, metrics, and caching. It ships with Kubernetes manifests and Terraform for an EKS deployment. Note: this project has over 100 source files; consider scoping analysis to a subdirectory for faster results.",
+  "languages": [
+    "dockerfile",
+    "hcl",
+    "json",
+    "markdown",
+    "python",
+    "sql",
+    "terraform",
+    "toml",
+    "yaml"
+  ],
+  "frameworks": [
+    "FastAPI",
+    "Uvicorn",
+    "Pydantic",
+    "pytest",
+    "Docker",
+    "Terraform",
+    "GitHub Actions"
+  ],
+  "files": [
+    {
+      "path": ".claude/settings.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".dockerignore",
+      "language": "unknown",
+      "sizeLines": 9,
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "language": "yaml",
+      "sizeLines": 37,
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".python-version",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".ua/config.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "Dockerfile",
+      "language": "dockerfile",
+      "sizeLines": 21,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 68,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "deploy/k8s/base/config.yaml",
+      "language": "yaml",
+      "sizeLines": 47,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "deploy/k8s/base/deployment.yaml",
+      "language": "yaml",
+      "sizeLines": 69,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "deploy/k8s/base/ingress.yaml",
+      "language": "yaml",
+      "sizeLines": 19,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "deploy/k8s/base/kustomization.yaml",
+      "language": "yaml",
+      "sizeLines": 23,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "deploy/k8s/base/namespace.yaml",
+      "language": "yaml",
+      "sizeLines": 4,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "deploy/k8s/base/networkpolicy.yaml",
+      "language": "yaml",
+      "sizeLines": 18,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "deploy/k8s/base/secrets.env.example",
+      "language": "example",
+      "sizeLines": 4,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "deploy/k8s/base/service.yaml",
+      "language": "yaml",
+      "sizeLines": 7,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "deploy/k8s/cluster/eks-auto/ingressclass.yaml",
+      "language": "yaml",
+      "sizeLines": 21,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "deploy/k8s/cluster/eks-auto/kustomization.yaml",
+      "language": "yaml",
+      "sizeLines": 8,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "deploy/k8s/cluster/eks-auto/network-policy.yaml",
+      "language": "yaml",
+      "sizeLines": 8,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "deploy/k8s/cluster/eks-auto/storageclass.yaml",
+      "language": "yaml",
+      "sizeLines": 18,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "deploy/k8s/overlays/eks/kustomization.yaml",
+      "language": "yaml",
+      "sizeLines": 45,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "deploy/k8s/overlays/k1/kustomization.yaml",
+      "language": "yaml",
+      "sizeLines": 19,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "deploy/k8s/overlays/k1/pvc.yaml",
+      "language": "yaml",
+      "sizeLines": 8,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "deploy/observability/alerts.yaml",
+      "language": "yaml",
+      "sizeLines": 22,
+      "fileCategory": "config"
+    },
+    {
+      "path": "deploy/observability/grafana-dashboard.json",
+      "language": "json",
+      "sizeLines": 365,
+      "fileCategory": "config"
+    },
+    {
+      "path": "docs/HLD.md",
+      "language": "markdown",
+      "sizeLines": 235,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/LLD.md",
+      "language": "markdown",
+      "sizeLines": 1080,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/RUNBOOK.md",
+      "language": "markdown",
+      "sizeLines": 212,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/SPEC.md",
+      "language": "markdown",
+      "sizeLines": 524,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/notes/phase-0-streaming.md",
+      "language": "markdown",
+      "sizeLines": 33,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/notes/phase-1-keys.md",
+      "language": "markdown",
+      "sizeLines": 22,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/notes/phase-2-usage.md",
+      "language": "markdown",
+      "sizeLines": 21,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/notes/phase-3-limits.md",
+      "language": "markdown",
+      "sizeLines": 22,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/notes/phase-4-resilience.md",
+      "language": "markdown",
+      "sizeLines": 27,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/notes/phase-5-observability.md",
+      "language": "markdown",
+      "sizeLines": 25,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/notes/phase-6-cache.md",
+      "language": "markdown",
+      "sizeLines": 23,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/video/README.md",
+      "language": "markdown",
+      "sizeLines": 35,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/video/build.py",
+      "language": "python",
+      "sizeLines": 334,
+      "fileCategory": "code"
+    },
+    {
+      "path": "docs/video/requirements.txt",
+      "language": "txt",
+      "sizeLines": 6,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/video/slides.py",
+      "language": "python",
+      "sizeLines": 619,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/admin.py",
+      "language": "python",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/app.py",
+      "language": "python",
+      "sizeLines": 244,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/config.py",
+      "language": "python",
+      "sizeLines": 132,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/context.py",
+      "language": "python",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/errors.py",
+      "language": "python",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/limiter/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/limiter/base.py",
+      "language": "python",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/limiter/memory.py",
+      "language": "python",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/metrics.py",
+      "language": "python",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/pricing.py",
+      "language": "python",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/providers/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/providers/anthropic.py",
+      "language": "python",
+      "sizeLines": 186,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/providers/base.py",
+      "language": "python",
+      "sizeLines": 96,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/providers/openai.py",
+      "language": "python",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/resilience/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/resilience/breaker.py",
+      "language": "python",
+      "sizeLines": 63,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/resilience/retry.py",
+      "language": "python",
+      "sizeLines": 156,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/schemas.py",
+      "language": "python",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/sse.py",
+      "language": "python",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/stages/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/stages/auth.py",
+      "language": "python",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/stages/base.py",
+      "language": "python",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/stages/budget.py",
+      "language": "python",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/stages/cache.py",
+      "language": "python",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/stages/observe.py",
+      "language": "python",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/stages/rate_limit.py",
+      "language": "python",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/stages/route.py",
+      "language": "python",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/stages/usage.py",
+      "language": "python",
+      "sizeLines": 84,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/store/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/store/base.py",
+      "language": "python",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/store/schema.sql",
+      "language": "sql",
+      "sizeLines": 36,
+      "fileCategory": "data"
+    },
+    {
+      "path": "gateway/store/sqlite.py",
+      "language": "python",
+      "sizeLines": 158,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/streams.py",
+      "language": "python",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "gateway/tracing.py",
+      "language": "python",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "infra/eks/.terraform.lock.hcl",
+      "language": "hcl",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "infra/eks/README.md",
+      "language": "markdown",
+      "sizeLines": 117,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "infra/eks/acm.tf",
+      "language": "terraform",
+      "sizeLines": 15,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "infra/eks/ecr.tf",
+      "language": "terraform",
+      "sizeLines": 27,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "infra/eks/eks.tf",
+      "language": "terraform",
+      "sizeLines": 87,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "infra/eks/iam.tf",
+      "language": "terraform",
+      "sizeLines": 57,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "infra/eks/outputs.tf",
+      "language": "terraform",
+      "sizeLines": 40,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "infra/eks/tags.tf",
+      "language": "terraform",
+      "sizeLines": 14,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "infra/eks/terraform.tfvars.example",
+      "language": "example",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "infra/eks/variables.tf",
+      "language": "terraform",
+      "sizeLines": 93,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "infra/eks/versions.tf",
+      "language": "terraform",
+      "sizeLines": 27,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "infra/eks/vpc.tf",
+      "language": "terraform",
+      "sizeLines": 42,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "pyproject.toml",
+      "language": "toml",
+      "sizeLines": 42,
+      "fileCategory": "config"
+    },
+    {
+      "path": "tests/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/conftest.py",
+      "language": "python",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/fakes/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/fakes/clock.py",
+      "language": "python",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/fakes/servers.py",
+      "language": "python",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/fakes/upstream.py",
+      "language": "python",
+      "sizeLines": 238,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/integration/test_admin.py",
+      "language": "python",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/integration/test_chat.py",
+      "language": "python",
+      "sizeLines": 186,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/integration/test_resilience.py",
+      "language": "python",
+      "sizeLines": 121,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/integration/test_shutdown.py",
+      "language": "python",
+      "sizeLines": 63,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/integration/test_streaming.py",
+      "language": "python",
+      "sizeLines": 119,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/providers/test_adapters.py",
+      "language": "python",
+      "sizeLines": 198,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/stages/test_stages.py",
+      "language": "python",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/unit/test_basics.py",
+      "language": "python",
+      "sizeLines": 189,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/unit/test_config.py",
+      "language": "python",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    }
+  ],
+  "totalFiles": 102,
+  "filteredByIgnore": 0,
+  "estimatedComplexity": "moderate",
+  "importMap": {
+    ".claude/settings.json": [],
+    ".dockerignore": [],
+    ".github/workflows/ci.yml": [],
+    ".python-version": [],
+    ".ua/config.json": [],
+    "Dockerfile": [],
+    "README.md": [],
+    "deploy/k8s/base/config.yaml": [],
+    "deploy/k8s/base/deployment.yaml": [],
+    "deploy/k8s/base/ingress.yaml": [],
+    "deploy/k8s/base/kustomization.yaml": [],
+    "deploy/k8s/base/namespace.yaml": [],
+    "deploy/k8s/base/networkpolicy.yaml": [],
+    "deploy/k8s/base/secrets.env.example": [],
+    "deploy/k8s/base/service.yaml": [],
+    "deploy/k8s/cluster/eks-auto/ingressclass.yaml": [],
+    "deploy/k8s/cluster/eks-auto/kustomization.yaml": [],
+    "deploy/k8s/cluster/eks-auto/network-policy.yaml": [],
+    "deploy/k8s/cluster/eks-auto/storageclass.yaml": [],
+    "deploy/k8s/overlays/eks/kustomization.yaml": [],
+    "deploy/k8s/overlays/k1/kustomization.yaml": [],
+    "deploy/k8s/overlays/k1/pvc.yaml": [],
+    "deploy/observability/alerts.yaml": [],
+    "deploy/observability/grafana-dashboard.json": [],
+    "docs/HLD.md": [],
+    "docs/LLD.md": [],
+    "docs/RUNBOOK.md": [],
+    "docs/SPEC.md": [],
+    "docs/notes/phase-0-streaming.md": [],
+    "docs/notes/phase-1-keys.md": [],
+    "docs/notes/phase-2-usage.md": [],
+    "docs/notes/phase-3-limits.md": [],
+    "docs/notes/phase-4-resilience.md": [],
+    "docs/notes/phase-5-observability.md": [],
+    "docs/notes/phase-6-cache.md": [],
+    "docs/video/README.md": [],
+    "docs/video/build.py": [
+      "docs/video/slides.py"
+    ],
+    "docs/video/requirements.txt": [],
+    "docs/video/slides.py": [],
+    "gateway/__init__.py": [],
+    "gateway/admin.py": [
+      "gateway/errors.py"
+    ],
+    "gateway/app.py": [
+      "gateway/__init__.py",
+      "gateway/admin.py",
+      "gateway/config.py",
+      "gateway/context.py",
+      "gateway/errors.py",
+      "gateway/limiter/memory.py",
+      "gateway/metrics.py",
+      "gateway/providers/anthropic.py",
+      "gateway/providers/base.py",
+      "gateway/providers/openai.py",
+      "gateway/resilience/breaker.py",
+      "gateway/schemas.py",
+      "gateway/sse.py",
+      "gateway/stages/auth.py",
+      "gateway/stages/base.py",
+      "gateway/stages/budget.py",
+      "gateway/stages/cache.py",
+      "gateway/stages/observe.py",
+      "gateway/stages/rate_limit.py",
+      "gateway/stages/route.py",
+      "gateway/stages/usage.py",
+      "gateway/store/sqlite.py",
+      "gateway/streams.py",
+      "gateway/tracing.py"
+    ],
+    "gateway/config.py": [],
+    "gateway/context.py": [
+      "gateway/schemas.py"
+    ],
+    "gateway/errors.py": [],
+    "gateway/limiter/__init__.py": [],
+    "gateway/limiter/base.py": [],
+    "gateway/limiter/memory.py": [],
+    "gateway/metrics.py": [],
+    "gateway/pricing.py": [
+      "gateway/config.py",
+      "gateway/context.py"
+    ],
+    "gateway/providers/__init__.py": [],
+    "gateway/providers/anthropic.py": [
+      "gateway/config.py",
+      "gateway/errors.py",
+      "gateway/providers/base.py",
+      "gateway/schemas.py",
+      "gateway/sse.py"
+    ],
+    "gateway/providers/base.py": [
+      "gateway/schemas.py"
+    ],
+    "gateway/providers/openai.py": [
+      "gateway/config.py",
+      "gateway/providers/base.py",
+      "gateway/schemas.py",
+      "gateway/sse.py"
+    ],
+    "gateway/resilience/__init__.py": [],
+    "gateway/resilience/breaker.py": [
+      "gateway/__init__.py",
+      "gateway/metrics.py"
+    ],
+    "gateway/resilience/retry.py": [
+      "gateway/__init__.py",
+      "gateway/config.py",
+      "gateway/context.py",
+      "gateway/errors.py",
+      "gateway/metrics.py",
+      "gateway/providers/base.py",
+      "gateway/resilience/breaker.py",
+      "gateway/schemas.py",
+      "gateway/streams.py",
+      "gateway/tracing.py"
+    ],
+    "gateway/schemas.py": [],
+    "gateway/sse.py": [],
+    "gateway/stages/__init__.py": [],
+    "gateway/stages/auth.py": [
+      "gateway/__init__.py",
+      "gateway/context.py",
+      "gateway/errors.py",
+      "gateway/metrics.py",
+      "gateway/stages/base.py",
+      "gateway/store/base.py",
+      "gateway/store/sqlite.py"
+    ],
+    "gateway/stages/base.py": [
+      "gateway/context.py"
+    ],
+    "gateway/stages/budget.py": [
+      "gateway/__init__.py",
+      "gateway/context.py",
+      "gateway/errors.py",
+      "gateway/metrics.py",
+      "gateway/stages/base.py",
+      "gateway/store/base.py"
+    ],
+    "gateway/stages/cache.py": [
+      "gateway/__init__.py",
+      "gateway/config.py",
+      "gateway/context.py",
+      "gateway/metrics.py",
+      "gateway/schemas.py",
+      "gateway/stages/base.py"
+    ],
+    "gateway/stages/observe.py": [
+      "gateway/__init__.py",
+      "gateway/context.py",
+      "gateway/errors.py",
+      "gateway/metrics.py",
+      "gateway/stages/base.py",
+      "gateway/streams.py",
+      "gateway/tracing.py"
+    ],
+    "gateway/stages/rate_limit.py": [
+      "gateway/__init__.py",
+      "gateway/context.py",
+      "gateway/errors.py",
+      "gateway/limiter/base.py",
+      "gateway/metrics.py",
+      "gateway/stages/base.py"
+    ],
+    "gateway/stages/route.py": [
+      "gateway/config.py",
+      "gateway/context.py",
+      "gateway/errors.py",
+      "gateway/providers/base.py",
+      "gateway/resilience/breaker.py",
+      "gateway/resilience/retry.py",
+      "gateway/schemas.py",
+      "gateway/streams.py"
+    ],
+    "gateway/stages/usage.py": [
+      "gateway/__init__.py",
+      "gateway/config.py",
+      "gateway/context.py",
+      "gateway/errors.py",
+      "gateway/metrics.py",
+      "gateway/pricing.py",
+      "gateway/stages/base.py",
+      "gateway/store/base.py",
+      "gateway/streams.py"
+    ],
+    "gateway/store/__init__.py": [],
+    "gateway/store/base.py": [],
+    "gateway/store/schema.sql": [],
+    "gateway/store/sqlite.py": [
+      "gateway/store/base.py"
+    ],
+    "gateway/streams.py": [
+      "gateway/errors.py",
+      "gateway/schemas.py"
+    ],
+    "gateway/tracing.py": [],
+    "infra/eks/.terraform.lock.hcl": [],
+    "infra/eks/README.md": [],
+    "infra/eks/acm.tf": [],
+    "infra/eks/ecr.tf": [],
+    "infra/eks/eks.tf": [],
+    "infra/eks/iam.tf": [],
+    "infra/eks/outputs.tf": [],
+    "infra/eks/tags.tf": [],
+    "infra/eks/terraform.tfvars.example": [],
+    "infra/eks/variables.tf": [],
+    "infra/eks/versions.tf": [],
+    "infra/eks/vpc.tf": [],
+    "pyproject.toml": [],
+    "tests/__init__.py": [],
+    "tests/conftest.py": [
+      "gateway/app.py",
+      "gateway/config.py",
+      "tests/fakes/servers.py",
+      "tests/fakes/upstream.py"
+    ],
+    "tests/fakes/__init__.py": [],
+    "tests/fakes/clock.py": [],
+    "tests/fakes/servers.py": [],
+    "tests/fakes/upstream.py": [],
+    "tests/integration/test_admin.py": [
+      "tests/conftest.py",
+      "tests/fakes/upstream.py"
+    ],
+    "tests/integration/test_chat.py": [
+      "tests/fakes/upstream.py"
+    ],
+    "tests/integration/test_resilience.py": [
+      "tests/conftest.py",
+      "tests/fakes/upstream.py"
+    ],
+    "tests/integration/test_shutdown.py": [
+      "tests/conftest.py",
+      "tests/fakes/upstream.py"
+    ],
+    "tests/integration/test_streaming.py": [
+      "tests/conftest.py",
+      "tests/fakes/upstream.py"
+    ],
+    "tests/providers/test_adapters.py": [
+      "gateway/config.py",
+      "gateway/errors.py",
+      "gateway/providers/anthropic.py",
+      "gateway/providers/base.py",
+      "gateway/providers/openai.py",
+      "gateway/schemas.py"
+    ],
+    "tests/stages/test_stages.py": [
+      "gateway/config.py",
+      "gateway/context.py",
+      "gateway/errors.py",
+      "gateway/limiter/memory.py",
+      "gateway/schemas.py",
+      "gateway/stages/auth.py",
+      "gateway/stages/base.py",
+      "gateway/stages/budget.py",
+      "gateway/stages/cache.py",
+      "gateway/stages/rate_limit.py",
+      "gateway/store/base.py",
+      "gateway/store/sqlite.py",
+      "tests/fakes/clock.py"
+    ],
+    "tests/unit/test_basics.py": [
+      "gateway/config.py",
+      "gateway/context.py",
+      "gateway/limiter/memory.py",
+      "gateway/pricing.py",
+      "gateway/resilience/breaker.py",
+      "gateway/sse.py",
+      "gateway/streams.py",
+      "tests/fakes/clock.py"
+    ],
+    "tests/unit/test_config.py": [
+      "gateway/config.py",
+      "tests/conftest.py"
+    ]
+  }
+}
