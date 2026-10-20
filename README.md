@@ -57,6 +57,12 @@ rules are in `deploy/observability/`.
 Terraform for the VPC, cluster and ECR repository is in [infra/eks](infra/eks/README.md), with
 the cluster baseline in `deploy/k8s/cluster/eks-auto` and an `eks` overlay for the ALB and ECR.
 
+### Locally (kind)
+
+The same deployment runs on a local kind cluster with no AWS account: Terraform for the cluster is
+in [infra/kind](infra/kind/README.md), with ingress-nginx in `deploy/k8s/cluster/kind` and a `kind`
+overlay that serves the gateway on `http://localhost/v1`.
+
 ## Status
 
 | Milestone | State |
@@ -64,5 +70,6 @@ the cluster baseline in `deploy/k8s/cluster/eks-auto` and an `eks` overlay for t
 | Phases 0–6 (proxy, keys, usage, limits, resilience, observability, cache) | Built and tested |
 | K1 deployment (Dockerfile, Kustomize base + k1 overlay) | Built; image and manifests verified locally, not yet run on a cluster |
 | EKS Auto Mode infrastructure (Terraform, baseline, eks overlay) | Written and validated; not yet applied |
+| kind infrastructure (Terraform, baseline, kind overlay) | Written and validated; not yet run end to end |
 | K2 scale-out (Postgres store, Redis limiter, PDB, HPA) | Not started (M4) |
 | Real provider keys, model IDs and prices | Pending |

@@ -1,0 +1,8 @@
+# Copy to terraform.tfvars and edit. terraform.tfvars is git-ignored. Every value has a default.
+
+# If something on this machine already uses ports 80/443, move the ingress elsewhere:
+# http_port  = 8081
+# https_port = 8443
+
+# Spread pods over more nodes (K1 needs none):
+# worker_count = 1

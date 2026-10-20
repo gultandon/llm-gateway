@@ -26,9 +26,12 @@ jobs:
 
   terraform:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        dir: [infra/eks, infra/kind]
     defaults:
       run:
-        working-directory: infra/eks
+        working-directory: ${{ matrix.dir }}
     steps:
       - uses: actions/checkout@v4
       - uses: hashicorp/setup-terraform@v3

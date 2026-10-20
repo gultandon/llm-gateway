@@ -1,0 +1,19 @@
+# One-time cluster baseline for kind (spec milestone M1.5). Apply after terraform in infra/kind:
+#   kubectl apply -k deploy/k8s/cluster/kind
+# kind already provides the default StorageClass and NetworkPolicy enforcement; this adds the
+# ingress controller. The kind flavour of ingress-nginx binds hostPorts 80/443, which infra/kind
+# maps to the host on the control-plane node only. The project is retired upstream (no fixes
+# after v1.15), which is acceptable for a local cluster; the base Ingress's streaming
+# annotations are written for it.
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.15.1/deploy/static/provider/kind/deploy.yaml
+patches:
+  # Pin the controller to the node with the port mappings (it tolerates the control-plane taint),
+  # so it still answers on localhost when worker_count > 0.
+  - target: {kind: Deployment, name: ingress-nginx-controller}
+    patch: |-
+      - op: add
+        path: /spec/template/spec/nodeSelector/ingress-ready
+        value: "true"
