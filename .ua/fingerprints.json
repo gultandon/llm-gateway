@@ -1,0 +1,5125 @@
+{
+  "version": "1.0.0",
+  "gitCommitHash": "ab214851bb3af332531ed4cc88a733fb567cae52",
+  "generatedAt": "2026-10-20T08:46:00.005Z",
+  "files": {
+    ".claude/settings.json": {
+      "filePath": ".claude/settings.json",
+      "contentHash": "7819b7b93b339712e383f835a8b624c507c49bbfce94661b370a28e0c11eb567",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 11,
+      "hasStructuralAnalysis": false
+    },
+    ".dockerignore": {
+      "filePath": ".dockerignore",
+      "contentHash": "5784f12f612577b77b1b61a8c1d15af92c69ca8f9ac8f2d266cfacfc58acbff7",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 10,
+      "hasStructuralAnalysis": false
+    },
+    ".github/workflows/ci.yml": {
+      "filePath": ".github/workflows/ci.yml",
+      "contentHash": "816200feb10a9f563c7ba0d8661483564f0280f1b154df7c72eddf56579e2941",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 38,
+      "hasStructuralAnalysis": false
+    },
+    ".python-version": {
+      "filePath": ".python-version",
+      "contentHash": "02e735b3dfe1c32833eb550b7ff8ffa17f5f2bc3fa1e7bae61a8f5a3883ce398",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    ".ua/config.json": {
+      "filePath": ".ua/config.json",
+      "contentHash": "4b66f98f8a815dfeb2d3a29eeb73418e07c40ed020a1498c07e908b2254f0c8c",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "Dockerfile": {
+      "filePath": "Dockerfile",
+      "contentHash": "60817105b93d155e7f084c03f47fd8e27ba18fe02451ea9873ea0e796e46c4c8",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 22,
+      "hasStructuralAnalysis": false
+    },
+    "README.md": {
+      "filePath": "README.md",
+      "contentHash": "bd061952f890bff479ae0fbd5662aef410a2bcc0805e10251f74696bfcc70f60",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 69,
+      "hasStructuralAnalysis": false
+    },
+    "deploy/k8s/base/config.yaml": {
+      "filePath": "deploy/k8s/base/config.yaml",
+      "contentHash": "db1a3194a9380b502456f1e6262d04329b516d01d07f0297d35590502d611a69",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 48,
+      "hasStructuralAnalysis": false
+    },
+    "deploy/k8s/base/deployment.yaml": {
+      "filePath": "deploy/k8s/base/deployment.yaml",
+      "contentHash": "84a474355b024d9fafb8f3d2a9ea9ae9d7f76972e555b3109a75bb623e87dd0f",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 70,
+      "hasStructuralAnalysis": false
+    },
+    "deploy/k8s/base/ingress.yaml": {
+      "filePath": "deploy/k8s/base/ingress.yaml",
+      "contentHash": "0a19b71e7552cd52df3c18b4f74cf4dab1c539ef56f827efc02da6fb270d68b5",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 20,
+      "hasStructuralAnalysis": false
+    },
+    "deploy/k8s/base/kustomization.yaml": {
+      "filePath": "deploy/k8s/base/kustomization.yaml",
+      "contentHash": "537e68e4cf55672e59bb9a57df1b45fcf9dfe98aa0d659e1f3c26924b0bbcbde",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 24,
+      "hasStructuralAnalysis": false
+    },
+    "deploy/k8s/base/namespace.yaml": {
+      "filePath": "deploy/k8s/base/namespace.yaml",
+      "contentHash": "4d3ea442b7f20641ab226ebf07bfa89843a0a76badb4ac81e39336a4e5b2663c",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 5,
+      "hasStructuralAnalysis": false
+    },
+    "deploy/k8s/base/networkpolicy.yaml": {
+      "filePath": "deploy/k8s/base/networkpolicy.yaml",
+      "contentHash": "4aedbeb2ade36e186986e6bc30792cebee29426c6ae7ff93a2c4a7d95de8b9c3",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 19,
+      "hasStructuralAnalysis": false
+    },
+    "deploy/k8s/base/secrets.env.example": {
+      "filePath": "deploy/k8s/base/secrets.env.example",
+      "contentHash": "b12c7d1366c6736f4ff9678693708dcb8a1f64c332f962a3c82f5c37761bcd43",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 5,
+      "hasStructuralAnalysis": false
+    },
+    "deploy/k8s/base/service.yaml": {
+      "filePath": "deploy/k8s/base/service.yaml",
+      "contentHash": "075d341954900d32b44d799019d61029fe1ccef726ada341fb5fba7af3fd6f35",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 8,
+      "hasStructuralAnalysis": false
+    },
+    "deploy/k8s/cluster/eks-auto/ingressclass.yaml": {
+      "filePath": "deploy/k8s/cluster/eks-auto/ingressclass.yaml",
+      "contentHash": "84dcf8f74b1b13d2070b73ef77f198a78eb814c63d1a14636a28c772a6199f8a",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 22,
+      "hasStructuralAnalysis": false
+    },
+    "deploy/k8s/cluster/eks-auto/kustomization.yaml": {
+      "filePath": "deploy/k8s/cluster/eks-auto/kustomization.yaml",
+      "contentHash": "64aa92912321a8e0fc6dd53b58241055a95f6172c531b3a887025576c3d8334d",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 9,
+      "hasStructuralAnalysis": false
+    },
+    "deploy/k8s/cluster/eks-auto/network-policy.yaml": {
+      "filePath": "deploy/k8s/cluster/eks-auto/network-policy.yaml",
+      "contentHash": "fe02123f8a728b4abd72c10d2cfd0f1a163f7275293803567b4a2d712c19e9e0",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 9,
+      "hasStructuralAnalysis": false
+    },
+    "deploy/k8s/cluster/eks-auto/storageclass.yaml": {
+      "filePath": "deploy/k8s/cluster/eks-auto/storageclass.yaml",
+      "contentHash": "3dd534c5b4a3c623b5ac0bc9a315ad23435be05e37f79f5d634019ab22cead5a",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 19,
+      "hasStructuralAnalysis": false
+    },
+    "deploy/k8s/overlays/eks/kustomization.yaml": {
+      "filePath": "deploy/k8s/overlays/eks/kustomization.yaml",
+      "contentHash": "f467475be6827e6b1437588db2b1a2fb3322a186969c9f1baa08e3190a8b7418",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 46,
+      "hasStructuralAnalysis": false
+    },
+    "deploy/k8s/overlays/k1/kustomization.yaml": {
+      "filePath": "deploy/k8s/overlays/k1/kustomization.yaml",
+      "contentHash": "4cc62670b3999e9cac76ef807db21f5c9f842a05aa3b6a24cf964132befc28cf",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 20,
+      "hasStructuralAnalysis": false
+    },
+    "deploy/k8s/overlays/k1/pvc.yaml": {
+      "filePath": "deploy/k8s/overlays/k1/pvc.yaml",
+      "contentHash": "c977b87620d14ae97d569456804692ba74f4a468bd1fee6f9c1ef7335424dc69",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 9,
+      "hasStructuralAnalysis": false
+    },
+    "deploy/observability/alerts.yaml": {
+      "filePath": "deploy/observability/alerts.yaml",
+      "contentHash": "ced511d44fdf991a9a25c0843f535b4a9477b9d173192afe1a0d8ac61f22c36c",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 23,
+      "hasStructuralAnalysis": false
+    },
+    "deploy/observability/grafana-dashboard.json": {
+      "filePath": "deploy/observability/grafana-dashboard.json",
+      "contentHash": "4a8ee602d7a4e8628a6bd3a7b97485e20653c2c173bf911dc6fff48e6a2424ed",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 366,
+      "hasStructuralAnalysis": false
+    },
+    "docs/HLD.md": {
+      "filePath": "docs/HLD.md",
+      "contentHash": "576663ebaafd859cf74744516921da456d731a9e86ae9bc05324b7ff3be1fab6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 236,
+      "hasStructuralAnalysis": false
+    },
+    "docs/LLD.md": {
+      "filePath": "docs/LLD.md",
+      "contentHash": "67c9e3f70e6c8339a4704d3b881e452e7bb17091a6c565c203b28056f6897baf",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 1081,
+      "hasStructuralAnalysis": false
+    },
+    "docs/RUNBOOK.md": {
+      "filePath": "docs/RUNBOOK.md",
+      "contentHash": "c73d9d0ceb30670b3d57d99585f6fef88fa7a49fd3ae1697777ed2b922ddbb0a",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 213,
+      "hasStructuralAnalysis": false
+    },
+    "docs/SPEC.md": {
+      "filePath": "docs/SPEC.md",
+      "contentHash": "c1c983d0c0b41734f18fe660246a63723b347f592906d945a0e1e2f5fd05a0a0",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 525,
+      "hasStructuralAnalysis": false
+    },
+    "docs/notes/phase-0-streaming.md": {
+      "filePath": "docs/notes/phase-0-streaming.md",
+      "contentHash": "72d1a7f0b30c61e4ca730c2e52d9d1a186be6aa52b396135141f5b2e884ce719",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 34,
+      "hasStructuralAnalysis": false
+    },
+    "docs/notes/phase-1-keys.md": {
+      "filePath": "docs/notes/phase-1-keys.md",
+      "contentHash": "206b2ee5d7873b32857c322d4832e46325b7ee57e1153bb761c3149db9b65033",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 23,
+      "hasStructuralAnalysis": false
+    },
+    "docs/notes/phase-2-usage.md": {
+      "filePath": "docs/notes/phase-2-usage.md",
+      "contentHash": "af82aea0e25c11ff0c5702e3c40ca9204d010fa325a8d38bb10043663875b304",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 22,
+      "hasStructuralAnalysis": false
+    },
+    "docs/notes/phase-3-limits.md": {
+      "filePath": "docs/notes/phase-3-limits.md",
+      "contentHash": "6230c5e4a78783359c05d763dcbb7aa9faf3a758478853d2d33de51b02245a14",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 23,
+      "hasStructuralAnalysis": false
+    },
+    "docs/notes/phase-4-resilience.md": {
+      "filePath": "docs/notes/phase-4-resilience.md",
+      "contentHash": "6f252d572b4dc1d78707c9956d2b9fbd4a3117b6a2e2e3b62818fb20d4e947f0",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 28,
+      "hasStructuralAnalysis": false
+    },
+    "docs/notes/phase-5-observability.md": {
+      "filePath": "docs/notes/phase-5-observability.md",
+      "contentHash": "4d3e1194af61f377861d408d337f063b499421419e38f83f004b195ffc58b916",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 26,
+      "hasStructuralAnalysis": false
+    },
+    "docs/notes/phase-6-cache.md": {
+      "filePath": "docs/notes/phase-6-cache.md",
+      "contentHash": "30803b94642d00c340f353c72c906cc29c4cf503c1bdfc1f58660535f2edbf9e",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 24,
+      "hasStructuralAnalysis": false
+    },
+    "docs/video/README.md": {
+      "filePath": "docs/video/README.md",
+      "contentHash": "28f7e5f0abf2e4353a3d6ad5f9964cb33b4311462ff6fc5b30ad110e0a9df5ea",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 36,
+      "hasStructuralAnalysis": false
+    },
+    "docs/video/build.py": {
+      "filePath": "docs/video/build.py",
+      "contentHash": "fcdf1d650658cb9ffde89ee391ebe04852b962231395a6a592a405c6c570f5c2",
+      "functions": [
+        {
+          "name": "page",
+          "params": [
+            "slide",
+            "step"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 25
+        },
+        {
+          "name": "units",
+          "params": [
+            "only"
+          ],
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "render",
+          "params": [
+            "only"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 15
+        },
+        {
+          "name": "tts",
+          "params": [
+            "only",
+            "voice"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 14
+        },
+        {
+          "name": "tts_piper",
+          "params": [
+            "only"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 19
+        },
+        {
+          "name": "duration",
+          "params": [
+            "path"
+          ],
+          "returnType": "float",
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "srt_time",
+          "params": [
+            "t"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "video",
+          "params": [],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 59
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "os",
+          "specifiers": [
+            "os"
+          ]
+        },
+        {
+          "source": "re",
+          "specifiers": [
+            "re"
+          ]
+        },
+        {
+          "source": "subprocess",
+          "specifiers": [
+            "subprocess"
+          ]
+        },
+        {
+          "source": "sys",
+          "specifiers": [
+            "sys"
+          ]
+        },
+        {
+          "source": "wave",
+          "specifiers": [
+            "wave"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "slides",
+          "specifiers": [
+            "CHAPTERS",
+            "SLIDES"
+          ]
+        }
+      ],
+      "exports": [
+        "page",
+        "units",
+        "render",
+        "tts",
+        "tts_piper",
+        "duration",
+        "srt_time",
+        "video"
+      ],
+      "totalLines": 335,
+      "hasStructuralAnalysis": true
+    },
+    "docs/video/requirements.txt": {
+      "filePath": "docs/video/requirements.txt",
+      "contentHash": "29f7039bb193bfffd55782e350356c9752719365a7042a34039e40283dd18806",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 7,
+      "hasStructuralAnalysis": false
+    },
+    "docs/video/slides.py": {
+      "filePath": "docs/video/slides.py",
+      "contentHash": "6908362a8737004861f6b67f1407a340814fe562034c62afe42d9427aba8ed7e",
+      "functions": [
+        {
+          "name": "card",
+          "params": [
+            "step",
+            "title",
+            "text",
+            "extra"
+          ],
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "image",
+          "params": [
+            "name",
+            "caption"
+          ],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "rows",
+          "params": [
+            "header",
+            "items"
+          ],
+          "exported": true,
+          "lineCount": 8
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        }
+      ],
+      "exports": [
+        "card",
+        "image",
+        "rows"
+      ],
+      "totalLines": 620,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/__init__.py": {
+      "filePath": "gateway/__init__.py",
+      "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 1,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/admin.py": {
+      "filePath": "gateway/admin.py",
+      "contentHash": "0f12db6caa5568771c352c8e5cc2730cbc42e05ad056b7fc3b3a81fbd4f39f09",
+      "functions": [
+        {
+          "name": "bearer_from",
+          "params": [
+            "request"
+          ],
+          "returnType": "str | None",
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "make_admin_router",
+          "params": [
+            "deps"
+          ],
+          "returnType": "APIRouter",
+          "exported": true,
+          "lineCount": 43
+        }
+      ],
+      "classes": [
+        {
+          "name": "CreateKey",
+          "methods": [],
+          "properties": [
+            "name",
+            "allowed_models",
+            "rpm_limit",
+            "monthly_budget_usd"
+          ],
+          "exported": true,
+          "lineCount": 5
+        }
+      ],
+      "imports": [
+        {
+          "source": "hmac",
+          "specifiers": [
+            "hmac"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "TYPE_CHECKING"
+          ]
+        },
+        {
+          "source": "fastapi",
+          "specifiers": [
+            "APIRouter",
+            "Depends",
+            "Request",
+            "Response"
+          ]
+        },
+        {
+          "source": "pydantic",
+          "specifiers": [
+            "BaseModel",
+            "Field"
+          ]
+        },
+        {
+          "source": "gateway.errors",
+          "specifiers": [
+            "BadRequest",
+            "Forbidden",
+            "NotFound",
+            "Unauthorized"
+          ]
+        }
+      ],
+      "exports": [
+        "CreateKey",
+        "bearer_from",
+        "make_admin_router"
+      ],
+      "totalLines": 75,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/app.py": {
+      "filePath": "gateway/app.py",
+      "contentHash": "d6e49e368dc43481fcbaba8786c9c84ace0c9c2dcdabf49a5ee30b2de5d60baf",
+      "functions": [
+        {
+          "name": "request_id_from",
+          "params": [
+            "request"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "sse_bytes",
+          "params": [
+            "stream"
+          ],
+          "returnType": "AsyncIterator[bytes]",
+          "exported": true,
+          "lineCount": 10
+        },
+        {
+          "name": "to_http",
+          "params": [
+            "resp",
+            "ctx"
+          ],
+          "returnType": "Response",
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "build_providers",
+          "params": [
+            "cfg",
+            "environ",
+            "transport"
+          ],
+          "returnType": "dict[str, Provider]",
+          "exported": true,
+          "lineCount": 7
+        },
+        {
+          "name": "create_app",
+          "params": [
+            "cfg",
+            "settings",
+            "environ",
+            "transport"
+          ],
+          "returnType": "FastAPI",
+          "exported": true,
+          "lineCount": 117
+        },
+        {
+          "name": "create_app_from_env",
+          "params": [],
+          "returnType": "FastAPI",
+          "exported": true,
+          "lineCount": 5
+        }
+      ],
+      "classes": [
+        {
+          "name": "Deps",
+          "methods": [],
+          "properties": [
+            "cfg",
+            "settings",
+            "store",
+            "providers",
+            "breakers",
+            "limiter",
+            "draining"
+          ],
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "SSEResponse",
+          "methods": [
+            "__call__"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 21
+        }
+      ],
+      "imports": [
+        {
+          "source": "asyncio",
+          "specifiers": [
+            "asyncio"
+          ]
+        },
+        {
+          "source": "logging",
+          "specifiers": [
+            "logging"
+          ]
+        },
+        {
+          "source": "os",
+          "specifiers": [
+            "os"
+          ]
+        },
+        {
+          "source": "re",
+          "specifiers": [
+            "re"
+          ]
+        },
+        {
+          "source": "secrets",
+          "specifiers": [
+            "secrets"
+          ]
+        },
+        {
+          "source": "collections.abc",
+          "specifiers": [
+            "AsyncIterator",
+            "Mapping"
+          ]
+        },
+        {
+          "source": "contextlib",
+          "specifiers": [
+            "asynccontextmanager"
+          ]
+        },
+        {
+          "source": "dataclasses",
+          "specifiers": [
+            "dataclass",
+            "field"
+          ]
+        },
+        {
+          "source": "anyio",
+          "specifiers": [
+            "anyio"
+          ]
+        },
+        {
+          "source": "httpx",
+          "specifiers": [
+            "httpx"
+          ]
+        },
+        {
+          "source": "fastapi",
+          "specifiers": [
+            "FastAPI",
+            "Request",
+            "Response"
+          ]
+        },
+        {
+          "source": "fastapi.responses",
+          "specifiers": [
+            "JSONResponse",
+            "StreamingResponse"
+          ]
+        },
+        {
+          "source": "prometheus_client",
+          "specifiers": [
+            "CONTENT_TYPE_LATEST",
+            "generate_latest"
+          ]
+        },
+        {
+          "source": "pydantic",
+          "specifiers": [
+            "ValidationError"
+          ]
+        },
+        {
+          "source": "gateway",
+          "specifiers": [
+            "metrics",
+            "tracing"
+          ]
+        },
+        {
+          "source": "gateway.admin",
+          "specifiers": [
+            "bearer_from",
+            "make_admin_router"
+          ]
+        },
+        {
+          "source": "gateway.config",
+          "specifiers": [
+            "Config",
+            "Settings",
+            "load_config"
+          ]
+        },
+        {
+          "source": "gateway.context",
+          "specifiers": [
+            "GatewayResponse",
+            "RequestContext"
+          ]
+        },
+        {
+          "source": "gateway.errors",
+          "specifiers": [
+            "BadRequest",
+            "GatewayError",
+            "Unavailable"
+          ]
+        },
+        {
+          "source": "gateway.limiter.memory",
+          "specifiers": [
+            "MemoryLimiter"
+          ]
+        },
+        {
+          "source": "gateway.providers.anthropic",
+          "specifiers": [
+            "AnthropicProvider"
+          ]
+        },
+        {
+          "source": "gateway.providers.base",
+          "specifiers": [
+            "Provider"
+          ]
+        },
+        {
+          "source": "gateway.providers.openai",
+          "specifiers": [
+            "OpenAIProvider"
+          ]
+        },
+        {
+          "source": "gateway.resilience.breaker",
+          "specifiers": [
+            "Breaker"
+          ]
+        },
+        {
+          "source": "gateway.schemas",
+          "specifiers": [
+            "ChatRequest"
+          ]
+        },
+        {
+          "source": "gateway.sse",
+          "specifiers": [
+            "DONE",
+            "encode_event"
+          ]
+        },
+        {
+          "source": "gateway.stages.auth",
+          "specifiers": [
+            "Auth",
+            "allowed",
+            "authenticate"
+          ]
+        },
+        {
+          "source": "gateway.stages.base",
+          "specifiers": [
+            "Stage",
+            "build_chain"
+          ]
+        },
+        {
+          "source": "gateway.stages.budget",
+          "specifiers": [
+            "Budget"
+          ]
+        },
+        {
+          "source": "gateway.stages.cache",
+          "specifiers": [
+            "Cache"
+          ]
+        },
+        {
+          "source": "gateway.stages.observe",
+          "specifiers": [
+            "Observe"
+          ]
+        },
+        {
+          "source": "gateway.stages.rate_limit",
+          "specifiers": [
+            "RateLimit"
+          ]
+        },
+        {
+          "source": "gateway.stages.route",
+          "specifiers": [
+            "Route"
+          ]
+        },
+        {
+          "source": "gateway.stages.usage",
+          "specifiers": [
+            "UsageStage"
+          ]
+        },
+        {
+          "source": "gateway.store.sqlite",
+          "specifiers": [
+            "SqliteStore"
+          ]
+        },
+        {
+          "source": "gateway.streams",
+          "specifiers": [
+            "StreamError",
+            "StreamItem",
+            "drain_background"
+          ]
+        }
+      ],
+      "exports": [
+        "Deps",
+        "request_id_from",
+        "SSEResponse",
+        "sse_bytes",
+        "to_http",
+        "build_providers",
+        "create_app",
+        "create_app_from_env"
+      ],
+      "totalLines": 245,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/config.py": {
+      "filePath": "gateway/config.py",
+      "contentHash": "8517c859d35a0955703cd5c17998f9f97c992e07d81505209fc9104f4e52b9ca",
+      "functions": [
+        {
+          "name": "load_config",
+          "params": [
+            "path",
+            "environ"
+          ],
+          "returnType": "Config",
+          "exported": true,
+          "lineCount": 8
+        }
+      ],
+      "classes": [
+        {
+          "name": "Settings",
+          "methods": [],
+          "properties": [
+            "gateway_config",
+            "gateway_db_path",
+            "admin_token",
+            "otel_exporter_otlp_endpoint",
+            "log_level"
+          ],
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "_Frozen",
+          "methods": [],
+          "properties": [],
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "ProviderCfg",
+          "methods": [],
+          "properties": [
+            "base_url",
+            "api_key_env",
+            "default_max_tokens"
+          ],
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "TargetCfg",
+          "methods": [],
+          "properties": [
+            "provider",
+            "model"
+          ],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "ModelCfg",
+          "methods": [],
+          "properties": [
+            "targets"
+          ],
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "Price",
+          "methods": [],
+          "properties": [
+            "input",
+            "output"
+          ],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "Toggle",
+          "methods": [],
+          "properties": [
+            "enabled"
+          ],
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "CacheCfg",
+          "methods": [],
+          "properties": [
+            "enabled",
+            "max_entries",
+            "ttl_s"
+          ],
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "StagesCfg",
+          "methods": [],
+          "properties": [
+            "cache",
+            "budget"
+          ],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "Timeouts",
+          "methods": [],
+          "properties": [
+            "connect_s",
+            "first_byte_s",
+            "idle_s",
+            "total_s"
+          ],
+          "exported": true,
+          "lineCount": 5
+        },
+        {
+          "name": "Retries",
+          "methods": [],
+          "properties": [
+            "max_attempts",
+            "backoff_base_s"
+          ],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "BreakerCfg",
+          "methods": [],
+          "properties": [
+            "failure_threshold",
+            "open_s"
+          ],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "ShutdownCfg",
+          "methods": [],
+          "properties": [
+            "drain_s",
+            "drain_delay_s"
+          ],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "Config",
+          "methods": [
+            "cross_checks"
+          ],
+          "properties": [
+            "providers",
+            "models",
+            "pricing",
+            "stages",
+            "timeouts",
+            "retries",
+            "breaker",
+            "shutdown"
+          ],
+          "exported": true,
+          "lineCount": 27
+        },
+        {
+          "name": "ConfigError",
+          "methods": [],
+          "properties": [],
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "imports": [
+        {
+          "source": "os",
+          "specifiers": [
+            "os"
+          ]
+        },
+        {
+          "source": "re",
+          "specifiers": [
+            "re"
+          ]
+        },
+        {
+          "source": "collections.abc",
+          "specifiers": [
+            "Mapping"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Literal"
+          ]
+        },
+        {
+          "source": "yaml",
+          "specifiers": [
+            "yaml"
+          ]
+        },
+        {
+          "source": "pydantic",
+          "specifiers": [
+            "BaseModel",
+            "ConfigDict",
+            "Field",
+            "model_validator"
+          ]
+        },
+        {
+          "source": "pydantic_settings",
+          "specifiers": [
+            "BaseSettings",
+            "SettingsConfigDict"
+          ]
+        }
+      ],
+      "exports": [
+        "Settings",
+        "_Frozen",
+        "ProviderCfg",
+        "TargetCfg",
+        "ModelCfg",
+        "Price",
+        "Toggle",
+        "CacheCfg",
+        "StagesCfg",
+        "Timeouts",
+        "Retries",
+        "BreakerCfg",
+        "ShutdownCfg",
+        "Config",
+        "ConfigError",
+        "load_config"
+      ],
+      "totalLines": 133,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/context.py": {
+      "filePath": "gateway/context.py",
+      "contentHash": "db215d258f84bf67f94546b40263de36fe1eaa7e4388d717c0c6385b73f59fd6",
+      "functions": [],
+      "classes": [
+        {
+          "name": "Target",
+          "methods": [],
+          "properties": [
+            "provider",
+            "model"
+          ],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "Usage",
+          "methods": [],
+          "properties": [
+            "input_tokens",
+            "output_tokens",
+            "estimated"
+          ],
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "RequestContext",
+          "methods": [],
+          "properties": [
+            "request_id",
+            "body",
+            "alias",
+            "bearer",
+            "key",
+            "target",
+            "attempts",
+            "started_at",
+            "first_byte_at",
+            "usage",
+            "cache_mode",
+            "cache_hit",
+            "status",
+            "error",
+            "output_chars",
+            "span"
+          ],
+          "exported": true,
+          "lineCount": 17
+        },
+        {
+          "name": "GatewayResponse",
+          "methods": [],
+          "properties": [
+            "status",
+            "body",
+            "stream",
+            "headers"
+          ],
+          "exported": true,
+          "lineCount": 5
+        }
+      ],
+      "imports": [
+        {
+          "source": "time",
+          "specifiers": [
+            "time"
+          ]
+        },
+        {
+          "source": "collections.abc",
+          "specifiers": [
+            "AsyncIterator"
+          ]
+        },
+        {
+          "source": "dataclasses",
+          "specifiers": [
+            "dataclass",
+            "field"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "TYPE_CHECKING",
+            "Any"
+          ]
+        },
+        {
+          "source": "gateway.schemas",
+          "specifiers": [
+            "ChatRequest"
+          ]
+        }
+      ],
+      "exports": [
+        "Target",
+        "Usage",
+        "RequestContext",
+        "GatewayResponse"
+      ],
+      "totalLines": 57,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/errors.py": {
+      "filePath": "gateway/errors.py",
+      "contentHash": "901f97325f562eb209aea182a08770f02fadbafea03f50c0b60d7c945478e29c",
+      "functions": [],
+      "classes": [
+        {
+          "name": "GatewayError",
+          "methods": [
+            "__init__",
+            "body",
+            "headers"
+          ],
+          "properties": [
+            "status",
+            "type"
+          ],
+          "exported": true,
+          "lineCount": 17
+        },
+        {
+          "name": "BadRequest",
+          "methods": [],
+          "properties": [],
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "Unauthorized",
+          "methods": [],
+          "properties": [],
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "BudgetExceeded",
+          "methods": [],
+          "properties": [],
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "Forbidden",
+          "methods": [],
+          "properties": [],
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "NotFound",
+          "methods": [],
+          "properties": [],
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "RateLimited",
+          "methods": [],
+          "properties": [],
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "UpstreamFailed",
+          "methods": [],
+          "properties": [],
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "Unavailable",
+          "methods": [],
+          "properties": [],
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "UpstreamTimeout",
+          "methods": [],
+          "properties": [],
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "imports": [],
+      "exports": [
+        "GatewayError",
+        "BadRequest",
+        "Unauthorized",
+        "BudgetExceeded",
+        "Forbidden",
+        "NotFound",
+        "RateLimited",
+        "UpstreamFailed",
+        "Unavailable",
+        "UpstreamTimeout"
+      ],
+      "totalLines": 59,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/limiter/__init__.py": {
+      "filePath": "gateway/limiter/__init__.py",
+      "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 1,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/limiter/base.py": {
+      "filePath": "gateway/limiter/base.py",
+      "contentHash": "9bba733303c06d6c28fe8ade7ded9c1506a1db57a1f7c44b9311105ac68f77c7",
+      "functions": [],
+      "classes": [
+        {
+          "name": "Limiter",
+          "methods": [
+            "acquire"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 4
+        }
+      ],
+      "imports": [
+        {
+          "source": "typing",
+          "specifiers": [
+            "Protocol"
+          ]
+        }
+      ],
+      "exports": [
+        "Limiter"
+      ],
+      "totalLines": 12,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/limiter/memory.py": {
+      "filePath": "gateway/limiter/memory.py",
+      "contentHash": "ccd283b2aad443c7c9cdfb6c6c478dc431fd1f2ee9e9fed1cedaccd8c98c2ec2",
+      "functions": [],
+      "classes": [
+        {
+          "name": "MemoryLimiter",
+          "methods": [
+            "__init__",
+            "acquire"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 14
+        }
+      ],
+      "imports": [
+        {
+          "source": "time",
+          "specifiers": [
+            "time"
+          ]
+        },
+        {
+          "source": "collections.abc",
+          "specifiers": [
+            "Callable"
+          ]
+        }
+      ],
+      "exports": [
+        "MemoryLimiter"
+      ],
+      "totalLines": 26,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/metrics.py": {
+      "filePath": "gateway/metrics.py",
+      "contentHash": "0233c06b10e866eeafe66cec55661087771b54cd350d3bd3027a0480268f0291",
+      "functions": [
+        {
+          "name": "status_class",
+          "params": [
+            "status"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "prometheus_client",
+          "specifiers": [
+            "Counter",
+            "Gauge",
+            "Histogram"
+          ]
+        }
+      ],
+      "exports": [
+        "status_class"
+      ],
+      "totalLines": 40,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/pricing.py": {
+      "filePath": "gateway/pricing.py",
+      "contentHash": "292020fc4f33bc83ebc3eda61e213a4b1bad8f48f2810441d9d6436690dc88d7",
+      "functions": [
+        {
+          "name": "cost_usd",
+          "params": [
+            "price",
+            "usage"
+          ],
+          "returnType": "float",
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "text_of",
+          "params": [
+            "content"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "estimate_tokens",
+          "params": [
+            "messages"
+          ],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 4
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "math",
+          "specifiers": [
+            "math"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "gateway.config",
+          "specifiers": [
+            "Price"
+          ]
+        },
+        {
+          "source": "gateway.context",
+          "specifiers": [
+            "Usage"
+          ]
+        }
+      ],
+      "exports": [
+        "cost_usd",
+        "text_of",
+        "estimate_tokens"
+      ],
+      "totalLines": 29,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/providers/__init__.py": {
+      "filePath": "gateway/providers/__init__.py",
+      "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 1,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/providers/anthropic.py": {
+      "filePath": "gateway/providers/anthropic.py",
+      "contentHash": "4b4d2dce6b3297ed57ac30dc42e66fc72f8269d06900f85356f43bbb14642e7c",
+      "functions": [
+        {
+          "name": "_content",
+          "params": [
+            "content"
+          ],
+          "returnType": "str | list[dict[str, str]]",
+          "exported": true,
+          "lineCount": 11
+        },
+        {
+          "name": "to_anthropic",
+          "params": [
+            "req",
+            "model",
+            "default_max_tokens",
+            "stream"
+          ],
+          "returnType": "dict",
+          "exported": true,
+          "lineCount": 34
+        },
+        {
+          "name": "_usage",
+          "params": [
+            "input_tokens",
+            "output_tokens"
+          ],
+          "returnType": "dict[str, int]",
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "from_anthropic",
+          "params": [
+            "data",
+            "model"
+          ],
+          "returnType": "ChatResponse",
+          "exported": true,
+          "lineCount": 16
+        }
+      ],
+      "classes": [
+        {
+          "name": "AnthropicProvider",
+          "methods": [
+            "__init__",
+            "complete",
+            "stream",
+            "aclose"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 77
+        }
+      ],
+      "imports": [
+        {
+          "source": "logging",
+          "specifiers": [
+            "logging"
+          ]
+        },
+        {
+          "source": "time",
+          "specifiers": [
+            "time"
+          ]
+        },
+        {
+          "source": "collections.abc",
+          "specifiers": [
+            "AsyncIterator"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "httpx",
+          "specifiers": [
+            "httpx"
+          ]
+        },
+        {
+          "source": "gateway.config",
+          "specifiers": [
+            "ProviderCfg"
+          ]
+        },
+        {
+          "source": "gateway.errors",
+          "specifiers": [
+            "BadRequest"
+          ]
+        },
+        {
+          "source": "gateway.providers.base",
+          "specifiers": [
+            "ProviderError",
+            "http_error",
+            "make_client",
+            "parse_json",
+            "transport_error"
+          ]
+        },
+        {
+          "source": "gateway.schemas",
+          "specifiers": [
+            "ChatChunk",
+            "ChatRequest",
+            "ChatResponse"
+          ]
+        },
+        {
+          "source": "gateway.sse",
+          "specifiers": [
+            "parse_sse"
+          ]
+        }
+      ],
+      "exports": [
+        "_content",
+        "to_anthropic",
+        "_usage",
+        "from_anthropic",
+        "AnthropicProvider"
+      ],
+      "totalLines": 187,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/providers/base.py": {
+      "filePath": "gateway/providers/base.py",
+      "contentHash": "7fa02a62aedf5134af94a72d95b7e91c0a1d94adc0e143a6672d935424295133",
+      "functions": [
+        {
+          "name": "make_client",
+          "params": [
+            "base_url",
+            "headers",
+            "connect_s",
+            "transport"
+          ],
+          "returnType": "httpx.AsyncClient",
+          "exported": true,
+          "lineCount": 11
+        },
+        {
+          "name": "transport_error",
+          "params": [
+            "e"
+          ],
+          "returnType": "ProviderError",
+          "exported": true,
+          "lineCount": 5
+        },
+        {
+          "name": "http_error",
+          "params": [
+            "resp"
+          ],
+          "returnType": "ProviderError",
+          "exported": true,
+          "lineCount": 15
+        },
+        {
+          "name": "parse_retry_after",
+          "params": [
+            "value"
+          ],
+          "returnType": "float | None",
+          "exported": true,
+          "lineCount": 7
+        },
+        {
+          "name": "parse_json",
+          "params": [
+            "data"
+          ],
+          "returnType": "dict",
+          "exported": true,
+          "lineCount": 8
+        }
+      ],
+      "classes": [
+        {
+          "name": "ProviderError",
+          "methods": [
+            "__init__"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 14
+        },
+        {
+          "name": "Provider",
+          "methods": [
+            "complete",
+            "stream",
+            "aclose"
+          ],
+          "properties": [
+            "name",
+            "supports_tools"
+          ],
+          "exported": true,
+          "lineCount": 9
+        }
+      ],
+      "imports": [
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "collections.abc",
+          "specifiers": [
+            "AsyncIterator"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Literal",
+            "Protocol"
+          ]
+        },
+        {
+          "source": "httpx",
+          "specifiers": [
+            "httpx"
+          ]
+        },
+        {
+          "source": "gateway.schemas",
+          "specifiers": [
+            "ChatChunk",
+            "ChatRequest",
+            "ChatResponse"
+          ]
+        }
+      ],
+      "exports": [
+        "ProviderError",
+        "Provider",
+        "make_client",
+        "transport_error",
+        "http_error",
+        "parse_retry_after",
+        "parse_json"
+      ],
+      "totalLines": 97,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/providers/openai.py": {
+      "filePath": "gateway/providers/openai.py",
+      "contentHash": "a6712cbb405dbde4a0e29bc3d8e511e8a3f8dca7427ee712541f06ce31b29c1e",
+      "functions": [],
+      "classes": [
+        {
+          "name": "OpenAIProvider",
+          "methods": [
+            "__init__",
+            "payload",
+            "complete",
+            "stream",
+            "aclose"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 62
+        }
+      ],
+      "imports": [
+        {
+          "source": "collections.abc",
+          "specifiers": [
+            "AsyncIterator"
+          ]
+        },
+        {
+          "source": "httpx",
+          "specifiers": [
+            "httpx"
+          ]
+        },
+        {
+          "source": "pydantic",
+          "specifiers": [
+            "ValidationError"
+          ]
+        },
+        {
+          "source": "gateway.config",
+          "specifiers": [
+            "ProviderCfg"
+          ]
+        },
+        {
+          "source": "gateway.providers.base",
+          "specifiers": [
+            "ProviderError",
+            "http_error",
+            "make_client",
+            "parse_json",
+            "transport_error"
+          ]
+        },
+        {
+          "source": "gateway.schemas",
+          "specifiers": [
+            "ChatChunk",
+            "ChatRequest",
+            "ChatResponse"
+          ]
+        },
+        {
+          "source": "gateway.sse",
+          "specifiers": [
+            "parse_sse"
+          ]
+        }
+      ],
+      "exports": [
+        "OpenAIProvider"
+      ],
+      "totalLines": 84,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/resilience/__init__.py": {
+      "filePath": "gateway/resilience/__init__.py",
+      "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 1,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/resilience/breaker.py": {
+      "filePath": "gateway/resilience/breaker.py",
+      "contentHash": "06d8ec1260a556c70e5057c932394aa22ed74be55f15edb57cacdb510e3c138f",
+      "functions": [],
+      "classes": [
+        {
+          "name": "Breaker",
+          "methods": [
+            "__init__",
+            "_set",
+            "can_try",
+            "begin",
+            "record_success",
+            "record_failure",
+            "release"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 46
+        }
+      ],
+      "imports": [
+        {
+          "source": "time",
+          "specifiers": [
+            "time"
+          ]
+        },
+        {
+          "source": "collections.abc",
+          "specifiers": [
+            "Callable"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Literal"
+          ]
+        },
+        {
+          "source": "gateway",
+          "specifiers": [
+            "metrics"
+          ]
+        }
+      ],
+      "exports": [
+        "Breaker"
+      ],
+      "totalLines": 64,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/resilience/retry.py": {
+      "filePath": "gateway/resilience/retry.py",
+      "contentHash": "3d5ea1acc17c1ebf3c4a6aa7dbe33c37c3073ece2eeaf4cd534f55b2d64a7654",
+      "functions": [
+        {
+          "name": "retryable",
+          "params": [
+            "e"
+          ],
+          "returnType": "bool",
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "record",
+          "params": [
+            "breaker",
+            "e"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "to_gateway_error",
+          "params": [
+            "e"
+          ],
+          "returnType": "GatewayError",
+          "exported": true,
+          "lineCount": 9
+        },
+        {
+          "name": "remaining",
+          "params": [
+            "deadline",
+            "cap"
+          ],
+          "returnType": "float",
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [
+        {
+          "name": "Attempts",
+          "methods": [
+            "__init__",
+            "_pick",
+            "_after_failure",
+            "open_stream",
+            "complete"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 98
+        }
+      ],
+      "imports": [
+        {
+          "source": "asyncio",
+          "specifiers": [
+            "asyncio"
+          ]
+        },
+        {
+          "source": "logging",
+          "specifiers": [
+            "logging"
+          ]
+        },
+        {
+          "source": "random",
+          "specifiers": [
+            "random"
+          ]
+        },
+        {
+          "source": "time",
+          "specifiers": [
+            "time"
+          ]
+        },
+        {
+          "source": "collections.abc",
+          "specifiers": [
+            "AsyncIterator"
+          ]
+        },
+        {
+          "source": "gateway",
+          "specifiers": [
+            "metrics",
+            "tracing"
+          ]
+        },
+        {
+          "source": "gateway.config",
+          "specifiers": [
+            "Retries",
+            "Timeouts"
+          ]
+        },
+        {
+          "source": "gateway.context",
+          "specifiers": [
+            "RequestContext",
+            "Target"
+          ]
+        },
+        {
+          "source": "gateway.errors",
+          "specifiers": [
+            "BadRequest",
+            "GatewayError",
+            "Unavailable",
+            "UpstreamFailed",
+            "UpstreamTimeout"
+          ]
+        },
+        {
+          "source": "gateway.providers.base",
+          "specifiers": [
+            "Provider",
+            "ProviderError"
+          ]
+        },
+        {
+          "source": "gateway.resilience.breaker",
+          "specifiers": [
+            "Breaker"
+          ]
+        },
+        {
+          "source": "gateway.schemas",
+          "specifiers": [
+            "ChatChunk",
+            "ChatResponse"
+          ]
+        },
+        {
+          "source": "gateway.streams",
+          "specifiers": [
+            "shielded"
+          ]
+        }
+      ],
+      "exports": [
+        "retryable",
+        "record",
+        "to_gateway_error",
+        "remaining",
+        "Attempts"
+      ],
+      "totalLines": 157,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/schemas.py": {
+      "filePath": "gateway/schemas.py",
+      "contentHash": "965e2c0c234922be244b21584765f23edfd263792856144be5159c201e1b076f",
+      "functions": [],
+      "classes": [
+        {
+          "name": "_Open",
+          "methods": [],
+          "properties": [],
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "ChatRequest",
+          "methods": [
+            "payload"
+          ],
+          "properties": [
+            "model",
+            "messages",
+            "stream",
+            "stream_options",
+            "temperature",
+            "top_p",
+            "max_tokens",
+            "max_completion_tokens",
+            "stop",
+            "tools",
+            "user"
+          ],
+          "exported": true,
+          "lineCount": 15
+        },
+        {
+          "name": "ChatResponse",
+          "methods": [],
+          "properties": [
+            "id",
+            "object",
+            "created",
+            "model",
+            "choices",
+            "usage"
+          ],
+          "exported": true,
+          "lineCount": 7
+        },
+        {
+          "name": "ChatChunk",
+          "methods": [],
+          "properties": [
+            "id",
+            "object",
+            "created",
+            "model",
+            "choices",
+            "usage"
+          ],
+          "exported": true,
+          "lineCount": 7
+        }
+      ],
+      "imports": [
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "pydantic",
+          "specifiers": [
+            "BaseModel",
+            "ConfigDict",
+            "Field"
+          ]
+        }
+      ],
+      "exports": [
+        "_Open",
+        "ChatRequest",
+        "ChatResponse",
+        "ChatChunk"
+      ],
+      "totalLines": 50,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/sse.py": {
+      "filePath": "gateway/sse.py",
+      "contentHash": "b54cea7bef3cf59eb8ce96cb0969ef0b18717d4aa41b711e1e41deee44c3f2ec",
+      "functions": [
+        {
+          "name": "parse_sse",
+          "params": [
+            "lines"
+          ],
+          "returnType": "AsyncIterator[SSEEvent]",
+          "exported": true,
+          "lineCount": 21
+        },
+        {
+          "name": "encode_event",
+          "params": [
+            "obj"
+          ],
+          "returnType": "bytes",
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [
+        {
+          "name": "SSEEvent",
+          "methods": [],
+          "properties": [
+            "event",
+            "data"
+          ],
+          "exported": true,
+          "lineCount": 3
+        }
+      ],
+      "imports": [
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "collections.abc",
+          "specifiers": [
+            "AsyncIterator"
+          ]
+        },
+        {
+          "source": "dataclasses",
+          "specifiers": [
+            "dataclass"
+          ]
+        }
+      ],
+      "exports": [
+        "SSEEvent",
+        "parse_sse",
+        "encode_event"
+      ],
+      "totalLines": 43,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/stages/__init__.py": {
+      "filePath": "gateway/stages/__init__.py",
+      "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 1,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/stages/auth.py": {
+      "filePath": "gateway/stages/auth.py",
+      "contentHash": "895b11702a958ae95a295b0406f36faa06cfe4f620d6e5ad9b9c2b16dd778862",
+      "functions": [
+        {
+          "name": "authenticate",
+          "params": [
+            "store",
+            "bearer"
+          ],
+          "returnType": "VirtualKey",
+          "exported": true,
+          "lineCount": 10
+        },
+        {
+          "name": "allowed",
+          "params": [
+            "key",
+            "alias"
+          ],
+          "returnType": "bool",
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [
+        {
+          "name": "Auth",
+          "methods": [
+            "__init__",
+            "__call__"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 12
+        }
+      ],
+      "imports": [
+        {
+          "source": "gateway",
+          "specifiers": [
+            "metrics"
+          ]
+        },
+        {
+          "source": "gateway.context",
+          "specifiers": [
+            "GatewayResponse",
+            "RequestContext"
+          ]
+        },
+        {
+          "source": "gateway.errors",
+          "specifiers": [
+            "Forbidden",
+            "Unauthorized"
+          ]
+        },
+        {
+          "source": "gateway.stages.base",
+          "specifiers": [
+            "Next"
+          ]
+        },
+        {
+          "source": "gateway.store.base",
+          "specifiers": [
+            "Store",
+            "VirtualKey"
+          ]
+        },
+        {
+          "source": "gateway.store.sqlite",
+          "specifiers": [
+            "hash_key"
+          ]
+        }
+      ],
+      "exports": [
+        "authenticate",
+        "allowed",
+        "Auth"
+      ],
+      "totalLines": 41,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/stages/base.py": {
+      "filePath": "gateway/stages/base.py",
+      "contentHash": "84aea82a73415c977cd89f09364a975630f7b90588d672c4d5d575a4acfbf248",
+      "functions": [
+        {
+          "name": "build_chain",
+          "params": [
+            "stages",
+            "terminal"
+          ],
+          "returnType": "Next",
+          "exported": true,
+          "lineCount": 6
+        }
+      ],
+      "classes": [
+        {
+          "name": "Stage",
+          "methods": [
+            "__call__"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "imports": [
+        {
+          "source": "functools",
+          "specifiers": [
+            "functools"
+          ]
+        },
+        {
+          "source": "collections.abc",
+          "specifiers": [
+            "Awaitable",
+            "Callable"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Protocol"
+          ]
+        },
+        {
+          "source": "gateway.context",
+          "specifiers": [
+            "GatewayResponse",
+            "RequestContext"
+          ]
+        }
+      ],
+      "exports": [
+        "Stage",
+        "build_chain"
+      ],
+      "totalLines": 24,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/stages/budget.py": {
+      "filePath": "gateway/stages/budget.py",
+      "contentHash": "9bb00a9a5867d9acc1d4fe905fd5a6a104d9485e43d8dbf6b1643938ce95eca5",
+      "functions": [],
+      "classes": [
+        {
+          "name": "Budget",
+          "methods": [
+            "__init__",
+            "__call__"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 12
+        }
+      ],
+      "imports": [
+        {
+          "source": "gateway",
+          "specifiers": [
+            "metrics"
+          ]
+        },
+        {
+          "source": "gateway.context",
+          "specifiers": [
+            "GatewayResponse",
+            "RequestContext"
+          ]
+        },
+        {
+          "source": "gateway.errors",
+          "specifiers": [
+            "BudgetExceeded"
+          ]
+        },
+        {
+          "source": "gateway.stages.base",
+          "specifiers": [
+            "Next"
+          ]
+        },
+        {
+          "source": "gateway.store.base",
+          "specifiers": [
+            "Store"
+          ]
+        }
+      ],
+      "exports": [
+        "Budget"
+      ],
+      "totalLines": 28,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/stages/cache.py": {
+      "filePath": "gateway/stages/cache.py",
+      "contentHash": "89b799ab4f844296383e6b53de4af032896c726a1ad0b70ced85025197c36996",
+      "functions": [
+        {
+          "name": "cache_key",
+          "params": [
+            "key_id",
+            "alias",
+            "body"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 4
+        }
+      ],
+      "classes": [
+        {
+          "name": "Cache",
+          "methods": [
+            "__init__",
+            "get",
+            "put",
+            "__call__"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 48
+        }
+      ],
+      "imports": [
+        {
+          "source": "copy",
+          "specifiers": [
+            "copy"
+          ]
+        },
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "secrets",
+          "specifiers": [
+            "secrets"
+          ]
+        },
+        {
+          "source": "time",
+          "specifiers": [
+            "time"
+          ]
+        },
+        {
+          "source": "collections",
+          "specifiers": [
+            "OrderedDict"
+          ]
+        },
+        {
+          "source": "collections.abc",
+          "specifiers": [
+            "Callable"
+          ]
+        },
+        {
+          "source": "hashlib",
+          "specifiers": [
+            "sha256"
+          ]
+        },
+        {
+          "source": "gateway",
+          "specifiers": [
+            "metrics"
+          ]
+        },
+        {
+          "source": "gateway.config",
+          "specifiers": [
+            "CacheCfg"
+          ]
+        },
+        {
+          "source": "gateway.context",
+          "specifiers": [
+            "GatewayResponse",
+            "RequestContext",
+            "Usage"
+          ]
+        },
+        {
+          "source": "gateway.schemas",
+          "specifiers": [
+            "ChatRequest"
+          ]
+        },
+        {
+          "source": "gateway.stages.base",
+          "specifiers": [
+            "Next"
+          ]
+        }
+      ],
+      "exports": [
+        "cache_key",
+        "Cache"
+      ],
+      "totalLines": 79,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/stages/observe.py": {
+      "filePath": "gateway/stages/observe.py",
+      "contentHash": "0e226ed7b09c00a15a83f4b2002fb95a43f8c5cbe092a8054f2cbc8d5b999cc5",
+      "functions": [],
+      "classes": [
+        {
+          "name": "Observe",
+          "methods": [
+            "__call__",
+            "finish_async",
+            "finish"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 61
+        }
+      ],
+      "imports": [
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "logging",
+          "specifiers": [
+            "logging"
+          ]
+        },
+        {
+          "source": "time",
+          "specifiers": [
+            "time"
+          ]
+        },
+        {
+          "source": "gateway",
+          "specifiers": [
+            "metrics",
+            "tracing"
+          ]
+        },
+        {
+          "source": "gateway.context",
+          "specifiers": [
+            "GatewayResponse",
+            "RequestContext"
+          ]
+        },
+        {
+          "source": "gateway.errors",
+          "specifiers": [
+            "GatewayError"
+          ]
+        },
+        {
+          "source": "gateway.stages.base",
+          "specifiers": [
+            "Next"
+          ]
+        },
+        {
+          "source": "gateway.streams",
+          "specifiers": [
+            "Outcome",
+            "wrap_stream"
+          ]
+        }
+      ],
+      "exports": [
+        "Observe"
+      ],
+      "totalLines": 79,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/stages/rate_limit.py": {
+      "filePath": "gateway/stages/rate_limit.py",
+      "contentHash": "4338bcf7e6dc765ebf8674c1088c75f8c7f0faa5031bf298d830ccd8f4b64425",
+      "functions": [],
+      "classes": [
+        {
+          "name": "RateLimit",
+          "methods": [
+            "__init__",
+            "__call__"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 15
+        }
+      ],
+      "imports": [
+        {
+          "source": "math",
+          "specifiers": [
+            "math"
+          ]
+        },
+        {
+          "source": "gateway",
+          "specifiers": [
+            "metrics"
+          ]
+        },
+        {
+          "source": "gateway.context",
+          "specifiers": [
+            "GatewayResponse",
+            "RequestContext"
+          ]
+        },
+        {
+          "source": "gateway.errors",
+          "specifiers": [
+            "RateLimited"
+          ]
+        },
+        {
+          "source": "gateway.limiter.base",
+          "specifiers": [
+            "Limiter"
+          ]
+        },
+        {
+          "source": "gateway.stages.base",
+          "specifiers": [
+            "Next"
+          ]
+        }
+      ],
+      "exports": [
+        "RateLimit"
+      ],
+      "totalLines": 29,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/stages/route.py": {
+      "filePath": "gateway/stages/route.py",
+      "contentHash": "d426462911ee838836bc343434b27acbb41a6ced3f7ddff9ee352b64cba7589f",
+      "functions": [
+        {
+          "name": "content_chars",
+          "params": [
+            "chunk"
+          ],
+          "returnType": "int",
+          "exported": true,
+          "lineCount": 7
+        },
+        {
+          "name": "usage_of",
+          "params": [
+            "raw"
+          ],
+          "returnType": "Usage",
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [
+        {
+          "name": "Route",
+          "methods": [
+            "__init__",
+            "capable",
+            "__call__",
+            "relay"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 72
+        }
+      ],
+      "imports": [
+        {
+          "source": "asyncio",
+          "specifiers": [
+            "asyncio"
+          ]
+        },
+        {
+          "source": "collections.abc",
+          "specifiers": [
+            "AsyncIterator"
+          ]
+        },
+        {
+          "source": "gateway.config",
+          "specifiers": [
+            "Config"
+          ]
+        },
+        {
+          "source": "gateway.context",
+          "specifiers": [
+            "GatewayResponse",
+            "RequestContext",
+            "Target",
+            "Usage"
+          ]
+        },
+        {
+          "source": "gateway.errors",
+          "specifiers": [
+            "BadRequest",
+            "UpstreamFailed",
+            "UpstreamTimeout"
+          ]
+        },
+        {
+          "source": "gateway.providers.base",
+          "specifiers": [
+            "Provider",
+            "ProviderError"
+          ]
+        },
+        {
+          "source": "gateway.resilience.breaker",
+          "specifiers": [
+            "Breaker"
+          ]
+        },
+        {
+          "source": "gateway.resilience.retry",
+          "specifiers": [
+            "Attempts",
+            "remaining"
+          ]
+        },
+        {
+          "source": "gateway.schemas",
+          "specifiers": [
+            "ChatChunk",
+            "ChatRequest"
+          ]
+        },
+        {
+          "source": "gateway.streams",
+          "specifiers": [
+            "StreamError",
+            "StreamItem",
+            "shielded"
+          ]
+        }
+      ],
+      "exports": [
+        "content_chars",
+        "usage_of",
+        "Route"
+      ],
+      "totalLines": 107,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/stages/usage.py": {
+      "filePath": "gateway/stages/usage.py",
+      "contentHash": "35b5974df11864e5bfe85c2ea0ddaad7cf79d67a36c487fcf0b12ede33c81160",
+      "functions": [],
+      "classes": [
+        {
+          "name": "UsageStage",
+          "methods": [
+            "__init__",
+            "__call__",
+            "record_stream",
+            "record"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 62
+        }
+      ],
+      "imports": [
+        {
+          "source": "logging",
+          "specifiers": [
+            "logging"
+          ]
+        },
+        {
+          "source": "time",
+          "specifiers": [
+            "time"
+          ]
+        },
+        {
+          "source": "gateway",
+          "specifiers": [
+            "metrics"
+          ]
+        },
+        {
+          "source": "gateway.config",
+          "specifiers": [
+            "Price"
+          ]
+        },
+        {
+          "source": "gateway.context",
+          "specifiers": [
+            "GatewayResponse",
+            "RequestContext",
+            "Usage"
+          ]
+        },
+        {
+          "source": "gateway.errors",
+          "specifiers": [
+            "GatewayError"
+          ]
+        },
+        {
+          "source": "gateway.pricing",
+          "specifiers": [
+            "cost_usd",
+            "estimate_tokens"
+          ]
+        },
+        {
+          "source": "gateway.stages.base",
+          "specifiers": [
+            "Next"
+          ]
+        },
+        {
+          "source": "gateway.store.base",
+          "specifiers": [
+            "Store",
+            "UsageRow",
+            "utc_ts"
+          ]
+        },
+        {
+          "source": "gateway.streams",
+          "specifiers": [
+            "Outcome",
+            "shielded",
+            "wrap_stream"
+          ]
+        }
+      ],
+      "exports": [
+        "UsageStage"
+      ],
+      "totalLines": 85,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/store/__init__.py": {
+      "filePath": "gateway/store/__init__.py",
+      "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 1,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/store/base.py": {
+      "filePath": "gateway/store/base.py",
+      "contentHash": "4d4a6082538d93fb66af0a5b72528d8ce272fb5892c07fc33433f11ad2377f9f",
+      "functions": [
+        {
+          "name": "utc_ts",
+          "params": [
+            "dt"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "month_start",
+          "params": [
+            "dt"
+          ],
+          "returnType": "datetime",
+          "exported": true,
+          "lineCount": 3
+        }
+      ],
+      "classes": [
+        {
+          "name": "VirtualKey",
+          "methods": [],
+          "properties": [
+            "id",
+            "name",
+            "allowed_models",
+            "rpm_limit",
+            "monthly_budget_usd",
+            "created_at",
+            "revoked_at"
+          ],
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "UsageRow",
+          "methods": [],
+          "properties": [
+            "request_id",
+            "key_id",
+            "ts",
+            "model_alias",
+            "provider",
+            "model",
+            "attempts",
+            "input_tokens",
+            "output_tokens",
+            "usage_estimated",
+            "cost_usd",
+            "latency_ms",
+            "ttft_ms",
+            "status",
+            "cache_hit"
+          ],
+          "exported": true,
+          "lineCount": 16
+        },
+        {
+          "name": "Store",
+          "methods": [
+            "get_key_by_hash",
+            "get_key",
+            "create_key",
+            "revoke_key",
+            "record_usage",
+            "spend_this_month",
+            "usage_summary",
+            "ping"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 22
+        }
+      ],
+      "imports": [
+        {
+          "source": "dataclasses",
+          "specifiers": [
+            "dataclass"
+          ]
+        },
+        {
+          "source": "datetime",
+          "specifiers": [
+            "UTC",
+            "datetime"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Protocol"
+          ]
+        }
+      ],
+      "exports": [
+        "VirtualKey",
+        "UsageRow",
+        "Store",
+        "utc_ts",
+        "month_start"
+      ],
+      "totalLines": 72,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/store/schema.sql": {
+      "filePath": "gateway/store/schema.sql",
+      "contentHash": "390666ebf420db9e1294d940e86b3995e39cd379c015afb5a711b7c9041044b7",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 37,
+      "hasStructuralAnalysis": false
+    },
+    "gateway/store/sqlite.py": {
+      "filePath": "gateway/store/sqlite.py",
+      "contentHash": "60e92cc756015a37cb2f0c69f1c56a3c3e59d90537e5adb9e63fd714539d5b4c",
+      "functions": [
+        {
+          "name": "hash_key",
+          "params": [
+            "plaintext"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "_key",
+          "params": [
+            "row"
+          ],
+          "returnType": "VirtualKey",
+          "exported": true,
+          "lineCount": 11
+        }
+      ],
+      "classes": [
+        {
+          "name": "SqliteStore",
+          "methods": [
+            "__init__",
+            "db",
+            "open",
+            "close",
+            "get_key_by_hash",
+            "get_key",
+            "create_key",
+            "revoke_key",
+            "record_usage",
+            "spend_this_month",
+            "usage_summary",
+            "ping"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 124
+        }
+      ],
+      "imports": [
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "secrets",
+          "specifiers": [
+            "secrets"
+          ]
+        },
+        {
+          "source": "dataclasses",
+          "specifiers": [
+            "astuple"
+          ]
+        },
+        {
+          "source": "hashlib",
+          "specifiers": [
+            "sha256"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "aiosqlite",
+          "specifiers": [
+            "aiosqlite"
+          ]
+        },
+        {
+          "source": "gateway.store.base",
+          "specifiers": [
+            "UsageRow",
+            "VirtualKey",
+            "month_start",
+            "utc_ts"
+          ]
+        }
+      ],
+      "exports": [
+        "hash_key",
+        "_key",
+        "SqliteStore"
+      ],
+      "totalLines": 159,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/streams.py": {
+      "filePath": "gateway/streams.py",
+      "contentHash": "ce4622de40ceb27fd5fa1804e3690cdeced3b5ccbc45ee233a14afbfe70492f1",
+      "functions": [
+        {
+          "name": "shielded",
+          "params": [
+            "coro"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "drain_background",
+          "params": [
+            "wait_s"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "wrap_stream",
+          "params": [
+            "source",
+            "on_item",
+            "on_close"
+          ],
+          "returnType": "AsyncIterator[StreamItem]",
+          "exported": true,
+          "lineCount": 33
+        }
+      ],
+      "classes": [
+        {
+          "name": "StreamError",
+          "methods": [],
+          "properties": [
+            "error"
+          ],
+          "exported": true,
+          "lineCount": 4
+        }
+      ],
+      "imports": [
+        {
+          "source": "asyncio",
+          "specifiers": [
+            "asyncio"
+          ]
+        },
+        {
+          "source": "logging",
+          "specifiers": [
+            "logging"
+          ]
+        },
+        {
+          "source": "collections.abc",
+          "specifiers": [
+            "AsyncIterator",
+            "Awaitable",
+            "Callable",
+            "Coroutine"
+          ]
+        },
+        {
+          "source": "dataclasses",
+          "specifiers": [
+            "dataclass"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any",
+            "Literal"
+          ]
+        },
+        {
+          "source": "gateway.errors",
+          "specifiers": [
+            "GatewayError"
+          ]
+        },
+        {
+          "source": "gateway.schemas",
+          "specifiers": [
+            "ChatChunk"
+          ]
+        }
+      ],
+      "exports": [
+        "StreamError",
+        "shielded",
+        "drain_background",
+        "wrap_stream"
+      ],
+      "totalLines": 82,
+      "hasStructuralAnalysis": true
+    },
+    "gateway/tracing.py": {
+      "filePath": "gateway/tracing.py",
+      "contentHash": "b36a697d88bd761a84f06da07608273ae7b849c7ba35e793d8d6d17d5a9c6e56",
+      "functions": [
+        {
+          "name": "setup",
+          "params": [
+            "endpoint"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 17
+        },
+        {
+          "name": "start_request_span",
+          "params": [
+            "request_id",
+            "alias"
+          ],
+          "returnType": "Any",
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "start_attempt_span",
+          "params": [
+            "parent",
+            "provider",
+            "model",
+            "attempt"
+          ],
+          "returnType": "Any",
+          "exported": true,
+          "lineCount": 11
+        },
+        {
+          "name": "end",
+          "params": [
+            "span"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 7
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "logging",
+          "specifiers": [
+            "logging"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        }
+      ],
+      "exports": [
+        "setup",
+        "start_request_span",
+        "start_attempt_span",
+        "end"
+      ],
+      "totalLines": 63,
+      "hasStructuralAnalysis": true
+    },
+    "infra/eks/.terraform.lock.hcl": {
+      "filePath": "infra/eks/.terraform.lock.hcl",
+      "contentHash": "53530dba623506d9fd040f279069331b843832205e2274f20e1787ab58db7add",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 30,
+      "hasStructuralAnalysis": false
+    },
+    "infra/eks/README.md": {
+      "filePath": "infra/eks/README.md",
+      "contentHash": "9f51da2c0dd9e8ff6008337807144e4c821ae487f824dd6120cb1e2412ef92a5",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 118,
+      "hasStructuralAnalysis": false
+    },
+    "infra/eks/acm.tf": {
+      "filePath": "infra/eks/acm.tf",
+      "contentHash": "7288a3b9b5cdba3db3622c9085bfaa40f53a6d6b319438504963a6efa4392f81",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 16,
+      "hasStructuralAnalysis": false
+    },
+    "infra/eks/ecr.tf": {
+      "filePath": "infra/eks/ecr.tf",
+      "contentHash": "138415a383dea5c91ff3f9b8d03a9da5067232a24bddafab243e291969a7f5c5",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 28,
+      "hasStructuralAnalysis": false
+    },
+    "infra/eks/eks.tf": {
+      "filePath": "infra/eks/eks.tf",
+      "contentHash": "eca61eafb17201cefc329b358f3deb71cc9ce2cfc062c3d72cc5d74251c5acab",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 88,
+      "hasStructuralAnalysis": false
+    },
+    "infra/eks/iam.tf": {
+      "filePath": "infra/eks/iam.tf",
+      "contentHash": "37714b9ae96cf3a66419cc04e5cbe7d9f9fbbbcb8daae3968cd9c3e88bc23cce",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 58,
+      "hasStructuralAnalysis": false
+    },
+    "infra/eks/outputs.tf": {
+      "filePath": "infra/eks/outputs.tf",
+      "contentHash": "9f51655e8be644c4a8a320ab23c148dd9420db10fc8db9f972c9d728fb7a36f3",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 41,
+      "hasStructuralAnalysis": false
+    },
+    "infra/eks/tags.tf": {
+      "filePath": "infra/eks/tags.tf",
+      "contentHash": "37fb7c99f4df7d95cef071ab9481c5df44a8c8d4dfea6a5ab17d6a24116ff9e9",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 15,
+      "hasStructuralAnalysis": false
+    },
+    "infra/eks/terraform.tfvars.example": {
+      "filePath": "infra/eks/terraform.tfvars.example",
+      "contentHash": "ed5ba6ed8245caf99c4a493085fd28850d8b1c79a9ee149e557e75805d98f4c0",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 17,
+      "hasStructuralAnalysis": false
+    },
+    "infra/eks/variables.tf": {
+      "filePath": "infra/eks/variables.tf",
+      "contentHash": "bd39b393953a83317846ab31bfcbb06527362431952e783a322c1ec6a2a47633",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 94,
+      "hasStructuralAnalysis": false
+    },
+    "infra/eks/versions.tf": {
+      "filePath": "infra/eks/versions.tf",
+      "contentHash": "dfb1f96c038e999b37f4ee8615686760add7c5c56df7bfaa483cd6ec944a3df6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 28,
+      "hasStructuralAnalysis": false
+    },
+    "infra/eks/vpc.tf": {
+      "filePath": "infra/eks/vpc.tf",
+      "contentHash": "4f05797d7acfd7b7dba2d82bae03a90bb6edaa8ee62bcfe35f30f38e1d3e0cdb",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 43,
+      "hasStructuralAnalysis": false
+    },
+    "pyproject.toml": {
+      "filePath": "pyproject.toml",
+      "contentHash": "4d625e4d4025ec8d604f51f157a3bf7f48b0121acefc4fca399c2a0efbca7725",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 43,
+      "hasStructuralAnalysis": false
+    },
+    "tests/__init__.py": {
+      "filePath": "tests/__init__.py",
+      "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 1,
+      "hasStructuralAnalysis": true
+    },
+    "tests/conftest.py": {
+      "filePath": "tests/conftest.py",
+      "contentHash": "2def4351eadb134697c7194524d00497d5b6da809ab07065f8cf4d0bbfba1ab9",
+      "functions": [
+        {
+          "name": "config_dict",
+          "params": [
+            "upstream_url"
+          ],
+          "returnType": "dict[str, Any]",
+          "exported": true,
+          "lineCount": 24
+        },
+        {
+          "name": "merge",
+          "params": [
+            "base",
+            "overrides"
+          ],
+          "returnType": "dict",
+          "exported": true,
+          "lineCount": 5
+        },
+        {
+          "name": "make_config",
+          "params": [
+            "upstream_url"
+          ],
+          "returnType": "Config",
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "sse_events",
+          "params": [
+            "lines"
+          ],
+          "returnType": "list[Any]",
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "upstream",
+          "params": [],
+          "returnType": "AsyncIterator[FakeUpstream]",
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "start_gateway",
+          "params": [
+            "upstream",
+            "tmp_path"
+          ],
+          "exported": true,
+          "lineCount": 19
+        },
+        {
+          "name": "gateway",
+          "params": [
+            "start_gateway"
+          ],
+          "returnType": "Gateway",
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [
+        {
+          "name": "Gateway",
+          "methods": [
+            "create_key",
+            "chat",
+            "usage_rows",
+            "wait_for_rows"
+          ],
+          "properties": [
+            "url",
+            "deps",
+            "client",
+            "server",
+            "admin"
+          ],
+          "exported": true,
+          "lineCount": 31
+        }
+      ],
+      "imports": [
+        {
+          "source": "asyncio",
+          "specifiers": [
+            "asyncio"
+          ]
+        },
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "collections.abc",
+          "specifiers": [
+            "AsyncIterator"
+          ]
+        },
+        {
+          "source": "dataclasses",
+          "specifiers": [
+            "dataclass",
+            "field"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        },
+        {
+          "source": "httpx",
+          "specifiers": [
+            "httpx"
+          ]
+        },
+        {
+          "source": "pytest",
+          "specifiers": [
+            "pytest"
+          ]
+        },
+        {
+          "source": "gateway.app",
+          "specifiers": [
+            "Deps",
+            "create_app"
+          ]
+        },
+        {
+          "source": "gateway.config",
+          "specifiers": [
+            "Config",
+            "Settings"
+          ]
+        },
+        {
+          "source": "tests.fakes.servers",
+          "specifiers": [
+            "RunningServer",
+            "start_server"
+          ]
+        },
+        {
+          "source": "tests.fakes.upstream",
+          "specifiers": [
+            "FakeUpstream"
+          ]
+        }
+      ],
+      "exports": [
+        "config_dict",
+        "merge",
+        "make_config",
+        "Gateway",
+        "sse_events",
+        "upstream",
+        "start_gateway",
+        "gateway"
+      ],
+      "totalLines": 136,
+      "hasStructuralAnalysis": true
+    },
+    "tests/fakes/__init__.py": {
+      "filePath": "tests/fakes/__init__.py",
+      "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 1,
+      "hasStructuralAnalysis": true
+    },
+    "tests/fakes/clock.py": {
+      "filePath": "tests/fakes/clock.py",
+      "contentHash": "798a1b64fc03823c49918f17cf95b41551dfb2c2b2be548fb0c9b4ca8f1c5d3e",
+      "functions": [],
+      "classes": [
+        {
+          "name": "FakeClock",
+          "methods": [
+            "__init__",
+            "now",
+            "advance"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 11
+        }
+      ],
+      "imports": [],
+      "exports": [
+        "FakeClock"
+      ],
+      "totalLines": 12,
+      "hasStructuralAnalysis": true
+    },
+    "tests/fakes/servers.py": {
+      "filePath": "tests/fakes/servers.py",
+      "contentHash": "3fec0206193b454c65bdad55d58fdc9a38a4e83bb4e0fa2e39e44366443ad205",
+      "functions": [
+        {
+          "name": "start_server",
+          "params": [
+            "app"
+          ],
+          "returnType": "RunningServer",
+          "exported": true,
+          "lineCount": 15
+        }
+      ],
+      "classes": [
+        {
+          "name": "RunningServer",
+          "methods": [
+            "__init__",
+            "stop"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 7
+        }
+      ],
+      "imports": [
+        {
+          "source": "asyncio",
+          "specifiers": [
+            "asyncio"
+          ]
+        },
+        {
+          "source": "socket",
+          "specifiers": [
+            "socket"
+          ]
+        },
+        {
+          "source": "uvicorn",
+          "specifiers": [
+            "uvicorn"
+          ]
+        }
+      ],
+      "exports": [
+        "RunningServer",
+        "start_server"
+      ],
+      "totalLines": 39,
+      "hasStructuralAnalysis": true
+    },
+    "tests/fakes/upstream.py": {
+      "filePath": "tests/fakes/upstream.py",
+      "contentHash": "e4478aa0c09526539214f7752916aede98bb08cb7a46b57d5db088727a57a370",
+      "functions": [
+        {
+          "name": "chunks",
+          "params": [
+            "n",
+            "delay"
+          ],
+          "returnType": "tuple",
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "wait",
+          "params": [
+            "s"
+          ],
+          "returnType": "tuple",
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "status",
+          "params": [
+            "code",
+            "retry_after"
+          ],
+          "returnType": "tuple",
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "usage",
+          "params": [
+            "input_tokens",
+            "output_tokens"
+          ],
+          "returnType": "tuple",
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "drop",
+          "params": [],
+          "returnType": "tuple",
+          "exported": true,
+          "lineCount": 2
+        }
+      ],
+      "classes": [
+        {
+          "name": "_Drop",
+          "methods": [],
+          "properties": [],
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "FakeUpstream",
+          "methods": [
+            "__init__",
+            "script",
+            "__call__",
+            "_json",
+            "_complete",
+            "_stream"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 193
+        }
+      ],
+      "imports": [
+        {
+          "source": "asyncio",
+          "specifiers": [
+            "asyncio"
+          ]
+        },
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "time",
+          "specifiers": [
+            "time"
+          ]
+        },
+        {
+          "source": "collections",
+          "specifiers": [
+            "deque"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Any"
+          ]
+        }
+      ],
+      "exports": [
+        "chunks",
+        "wait",
+        "status",
+        "usage",
+        "drop",
+        "_Drop",
+        "FakeUpstream"
+      ],
+      "totalLines": 239,
+      "hasStructuralAnalysis": true
+    },
+    "tests/integration/test_admin.py": {
+      "filePath": "tests/integration/test_admin.py",
+      "contentHash": "1dfc8a48271ed0e2744a6cd491e49f5618607213505afd1e59cd063ed9e65e86",
+      "functions": [
+        {
+          "name": "test_virtual_key_on_admin_is_403",
+          "params": [
+            "gateway"
+          ],
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "test_admin_requires_correct_token",
+          "params": [
+            "gateway"
+          ],
+          "exported": true,
+          "lineCount": 5
+        },
+        {
+          "name": "test_create_key_validates_models",
+          "params": [
+            "gateway"
+          ],
+          "exported": true,
+          "lineCount": 5
+        },
+        {
+          "name": "test_key_is_stored_hashed",
+          "params": [
+            "gateway"
+          ],
+          "exported": true,
+          "lineCount": 7
+        },
+        {
+          "name": "test_usage_summary",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 13
+        },
+        {
+          "name": "test_unknown_key_404",
+          "params": [
+            "gateway"
+          ],
+          "exported": true,
+          "lineCount": 4
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "tests.conftest",
+          "specifiers": [
+            "ADMIN_TOKEN"
+          ]
+        },
+        {
+          "source": "tests.fakes.upstream",
+          "specifiers": [
+            "chunks",
+            "usage"
+          ]
+        }
+      ],
+      "exports": [
+        "test_virtual_key_on_admin_is_403",
+        "test_admin_requires_correct_token",
+        "test_create_key_validates_models",
+        "test_key_is_stored_hashed",
+        "test_usage_summary",
+        "test_unknown_key_404"
+      ],
+      "totalLines": 61,
+      "hasStructuralAnalysis": true
+    },
+    "tests/integration/test_chat.py": {
+      "filePath": "tests/integration/test_chat.py",
+      "contentHash": "bd7810e3f53dc9d917aaf2984d086536070d77218da1bbcb9eaf78800d8fdf3f",
+      "functions": [
+        {
+          "name": "test_non_streaming_openai",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 13
+        },
+        {
+          "name": "test_non_streaming_anthropic",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 21
+        },
+        {
+          "name": "test_request_id_is_reused",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "test_auth_errors",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 10
+        },
+        {
+          "name": "test_revoked_key_is_rejected",
+          "params": [
+            "gateway"
+          ],
+          "exported": true,
+          "lineCount": 9
+        },
+        {
+          "name": "test_model_allow_list",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "test_unknown_model_and_bad_body",
+          "params": [
+            "gateway"
+          ],
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "test_tools_skip_incapable_targets",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 9
+        },
+        {
+          "name": "test_rate_limit",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 9
+        },
+        {
+          "name": "test_budget",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "test_cache_hit_and_bypass",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 22
+        },
+        {
+          "name": "test_cache_scoped_per_key",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "test_no_cache_without_temperature_zero",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "test_metrics_endpoint",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "test_budget_is_a_soft_cap_under_concurrency",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 8
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "asyncio",
+          "specifiers": [
+            "asyncio"
+          ]
+        },
+        {
+          "source": "tests.fakes.upstream",
+          "specifiers": [
+            "chunks",
+            "usage",
+            "wait"
+          ]
+        }
+      ],
+      "exports": [
+        "test_non_streaming_openai",
+        "test_non_streaming_anthropic",
+        "test_request_id_is_reused",
+        "test_auth_errors",
+        "test_revoked_key_is_rejected",
+        "test_model_allow_list",
+        "test_unknown_model_and_bad_body",
+        "test_tools_skip_incapable_targets",
+        "test_rate_limit",
+        "test_budget",
+        "test_cache_hit_and_bypass",
+        "test_cache_scoped_per_key",
+        "test_no_cache_without_temperature_zero",
+        "test_metrics_endpoint",
+        "test_budget_is_a_soft_cap_under_concurrency"
+      ],
+      "totalLines": 187,
+      "hasStructuralAnalysis": true
+    },
+    "tests/integration/test_resilience.py": {
+      "filePath": "tests/integration/test_resilience.py",
+      "contentHash": "6e2667c195f4941c43d3fca0bcc68972ec2afe718f445262ca551b0401d4c6aa",
+      "functions": [
+        {
+          "name": "stream_events",
+          "params": [
+            "gateway",
+            "key",
+            "**body"
+          ],
+          "returnType": "tuple[int, list]",
+          "exported": true,
+          "lineCount": 11
+        },
+        {
+          "name": "test_retry_then_fallback",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 9
+        },
+        {
+          "name": "test_single_target_retries_same_provider",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "test_retries_exhausted_returns_502",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 10
+        },
+        {
+          "name": "test_client_error_is_not_retried",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "test_first_byte_timeout_retries_then_504",
+          "params": [
+            "start_gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 9
+        },
+        {
+          "name": "test_no_retry_after_first_byte",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 9
+        },
+        {
+          "name": "test_idle_timeout_sends_sse_error",
+          "params": [
+            "start_gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 10
+        },
+        {
+          "name": "test_breaker_opens_and_returns_503",
+          "params": [
+            "start_gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 13
+        },
+        {
+          "name": "test_open_breaker_falls_back",
+          "params": [
+            "start_gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 10
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "tests.conftest",
+          "specifiers": [
+            "sse_events"
+          ]
+        },
+        {
+          "source": "tests.fakes.upstream",
+          "specifiers": [
+            "chunks",
+            "drop",
+            "status",
+            "wait"
+          ]
+        }
+      ],
+      "exports": [
+        "stream_events",
+        "test_retry_then_fallback",
+        "test_single_target_retries_same_provider",
+        "test_retries_exhausted_returns_502",
+        "test_client_error_is_not_retried",
+        "test_first_byte_timeout_retries_then_504",
+        "test_no_retry_after_first_byte",
+        "test_idle_timeout_sends_sse_error",
+        "test_breaker_opens_and_returns_503",
+        "test_open_breaker_falls_back"
+      ],
+      "totalLines": 122,
+      "hasStructuralAnalysis": true
+    },
+    "tests/integration/test_shutdown.py": {
+      "filePath": "tests/integration/test_shutdown.py",
+      "contentHash": "7f17bd0fa86715170d47460d588843e8aab09d156646e3c69fb90631ee069aae",
+      "functions": [
+        {
+          "name": "test_probes",
+          "params": [
+            "gateway"
+          ],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "test_drain_flips_readyz",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 18
+        },
+        {
+          "name": "test_drain_is_loopback_only",
+          "params": [
+            "gateway"
+          ],
+          "exported": true,
+          "lineCount": 28
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "asyncio",
+          "specifiers": [
+            "asyncio"
+          ]
+        },
+        {
+          "source": "tests.conftest",
+          "specifiers": [
+            "sse_events"
+          ]
+        },
+        {
+          "source": "tests.fakes.upstream",
+          "specifiers": [
+            "chunks",
+            "wait"
+          ]
+        }
+      ],
+      "exports": [
+        "test_probes",
+        "test_drain_flips_readyz",
+        "test_drain_is_loopback_only"
+      ],
+      "totalLines": 64,
+      "hasStructuralAnalysis": true
+    },
+    "tests/integration/test_streaming.py": {
+      "filePath": "tests/integration/test_streaming.py",
+      "contentHash": "0abe2e532007d6ef8ce9b2ca7b551a65bdbf0bf22d70ee66a9d1995068bc315f",
+      "functions": [
+        {
+          "name": "stream_lines",
+          "params": [
+            "gateway",
+            "key",
+            "**body"
+          ],
+          "returnType": "list[str]",
+          "exported": true,
+          "lineCount": 11
+        },
+        {
+          "name": "test_openai_stream_passes_through",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "test_anthropic_stream_is_translated",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 17
+        },
+        {
+          "name": "test_include_usage_injected_and_stripped",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "test_usage_chunk_kept_when_client_asks",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "test_first_chunk_before_upstream_finishes",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 12
+        },
+        {
+          "name": "test_disconnect_closes_upstream",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 13
+        },
+        {
+          "name": "test_disconnect_writes_estimated_usage",
+          "params": [
+            "gateway",
+            "upstream"
+          ],
+          "exported": true,
+          "lineCount": 19
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "asyncio",
+          "specifiers": [
+            "asyncio"
+          ]
+        },
+        {
+          "source": "time",
+          "specifiers": [
+            "time"
+          ]
+        },
+        {
+          "source": "tests.conftest",
+          "specifiers": [
+            "sse_events"
+          ]
+        },
+        {
+          "source": "tests.fakes.upstream",
+          "specifiers": [
+            "chunks",
+            "usage",
+            "wait"
+          ]
+        }
+      ],
+      "exports": [
+        "stream_lines",
+        "test_openai_stream_passes_through",
+        "test_anthropic_stream_is_translated",
+        "test_include_usage_injected_and_stripped",
+        "test_usage_chunk_kept_when_client_asks",
+        "test_first_chunk_before_upstream_finishes",
+        "test_disconnect_closes_upstream",
+        "test_disconnect_writes_estimated_usage"
+      ],
+      "totalLines": 120,
+      "hasStructuralAnalysis": true
+    },
+    "tests/providers/test_adapters.py": {
+      "filePath": "tests/providers/test_adapters.py",
+      "contentHash": "e3edc063ac4c58d4f6c5c4fadb229000aaf773e67dcff74e6e71ac9dcd7659fc",
+      "functions": [
+        {
+          "name": "req",
+          "params": [
+            "**kw"
+          ],
+          "returnType": "ChatRequest",
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "openai",
+          "params": [],
+          "returnType": "OpenAIProvider",
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "anthropic",
+          "params": [],
+          "returnType": "AnthropicProvider",
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "test_openai_stream_parses_and_injects_usage",
+          "params": [],
+          "exported": true,
+          "lineCount": 11
+        },
+        {
+          "name": "test_openai_payload_sends_max_completion_tokens",
+          "params": [],
+          "exported": true,
+          "lineCount": 5
+        },
+        {
+          "name": "test_openai_truncated_stream_is_protocol_error",
+          "params": [],
+          "exported": true,
+          "lineCount": 7
+        },
+        {
+          "name": "test_openai_http_error_carries_status_and_retry_after",
+          "params": [],
+          "exported": true,
+          "lineCount": 10
+        },
+        {
+          "name": "test_connect_error_is_classified",
+          "params": [],
+          "exported": true,
+          "lineCount": 7
+        },
+        {
+          "name": "test_anthropic_stream_translation",
+          "params": [],
+          "exported": true,
+          "lineCount": 15
+        },
+        {
+          "name": "test_anthropic_error_event_is_529_when_overloaded",
+          "params": [],
+          "exported": true,
+          "lineCount": 10
+        },
+        {
+          "name": "test_to_anthropic_request_translation",
+          "params": [],
+          "exported": true,
+          "lineCount": 21
+        },
+        {
+          "name": "test_to_anthropic_defaults_and_refusals",
+          "params": [],
+          "exported": true,
+          "lineCount": 9
+        },
+        {
+          "name": "test_from_anthropic_response",
+          "params": [],
+          "exported": true,
+          "lineCount": 13
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "httpx",
+          "specifiers": [
+            "httpx"
+          ]
+        },
+        {
+          "source": "pytest",
+          "specifiers": [
+            "pytest"
+          ]
+        },
+        {
+          "source": "respx",
+          "specifiers": [
+            "respx"
+          ]
+        },
+        {
+          "source": "gateway.config",
+          "specifiers": [
+            "ProviderCfg"
+          ]
+        },
+        {
+          "source": "gateway.errors",
+          "specifiers": [
+            "BadRequest"
+          ]
+        },
+        {
+          "source": "gateway.providers.anthropic",
+          "specifiers": [
+            "AnthropicProvider",
+            "from_anthropic",
+            "to_anthropic"
+          ]
+        },
+        {
+          "source": "gateway.providers.base",
+          "specifiers": [
+            "ProviderError"
+          ]
+        },
+        {
+          "source": "gateway.providers.openai",
+          "specifiers": [
+            "OpenAIProvider"
+          ]
+        },
+        {
+          "source": "gateway.schemas",
+          "specifiers": [
+            "ChatRequest"
+          ]
+        }
+      ],
+      "exports": [
+        "req",
+        "openai",
+        "anthropic",
+        "test_openai_stream_parses_and_injects_usage",
+        "test_openai_payload_sends_max_completion_tokens",
+        "test_openai_truncated_stream_is_protocol_error",
+        "test_openai_http_error_carries_status_and_retry_after",
+        "test_connect_error_is_classified",
+        "test_anthropic_stream_translation",
+        "test_anthropic_error_event_is_529_when_overloaded",
+        "test_to_anthropic_request_translation",
+        "test_to_anthropic_defaults_and_refusals",
+        "test_from_anthropic_response"
+      ],
+      "totalLines": 199,
+      "hasStructuralAnalysis": true
+    },
+    "tests/stages/test_stages.py": {
+      "filePath": "tests/stages/test_stages.py",
+      "contentHash": "72774339fb501573bc2a6c8566af3ba1a3ac8bf30c27fff43385e66fcb9ce3dc",
+      "functions": [
+        {
+          "name": "make_ctx",
+          "params": [
+            "key",
+            "**body"
+          ],
+          "returnType": "RequestContext",
+          "exported": true,
+          "lineCount": 5
+        },
+        {
+          "name": "vkey",
+          "params": [
+            "**kw"
+          ],
+          "returnType": "VirtualKey",
+          "exported": true,
+          "lineCount": 10
+        },
+        {
+          "name": "ok",
+          "params": [
+            "ctx"
+          ],
+          "returnType": "GatewayResponse",
+          "exported": true,
+          "lineCount": 2
+        },
+        {
+          "name": "test_build_chain_order",
+          "params": [],
+          "exported": true,
+          "lineCount": 14
+        },
+        {
+          "name": "test_auth",
+          "params": [],
+          "exported": true,
+          "lineCount": 16
+        },
+        {
+          "name": "test_revoked_key_is_unauthorized",
+          "params": [],
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "test_rate_limit_stage",
+          "params": [],
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "test_budget_stage",
+          "params": [],
+          "exported": true,
+          "lineCount": 5
+        },
+        {
+          "name": "test_cache_key_ignores_stream_and_user",
+          "params": [],
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "test_cache_ttl_and_lru",
+          "params": [],
+          "exported": true,
+          "lineCount": 10
+        },
+        {
+          "name": "test_cache_skips_streams_and_nonzero_temperature",
+          "params": [],
+          "exported": true,
+          "lineCount": 13
+        }
+      ],
+      "classes": [
+        {
+          "name": "FakeStore",
+          "methods": [
+            "__init__",
+            "get_key_by_hash",
+            "spend_this_month"
+          ],
+          "properties": [],
+          "exported": true,
+          "lineCount": 9
+        }
+      ],
+      "imports": [
+        {
+          "source": "pytest",
+          "specifiers": [
+            "pytest"
+          ]
+        },
+        {
+          "source": "gateway.config",
+          "specifiers": [
+            "CacheCfg"
+          ]
+        },
+        {
+          "source": "gateway.context",
+          "specifiers": [
+            "GatewayResponse",
+            "RequestContext",
+            "Usage"
+          ]
+        },
+        {
+          "source": "gateway.errors",
+          "specifiers": [
+            "BudgetExceeded",
+            "Forbidden",
+            "RateLimited",
+            "Unauthorized"
+          ]
+        },
+        {
+          "source": "gateway.limiter.memory",
+          "specifiers": [
+            "MemoryLimiter"
+          ]
+        },
+        {
+          "source": "gateway.schemas",
+          "specifiers": [
+            "ChatRequest"
+          ]
+        },
+        {
+          "source": "gateway.stages.auth",
+          "specifiers": [
+            "Auth"
+          ]
+        },
+        {
+          "source": "gateway.stages.base",
+          "specifiers": [
+            "build_chain"
+          ]
+        },
+        {
+          "source": "gateway.stages.budget",
+          "specifiers": [
+            "Budget"
+          ]
+        },
+        {
+          "source": "gateway.stages.cache",
+          "specifiers": [
+            "Cache",
+            "cache_key"
+          ]
+        },
+        {
+          "source": "gateway.stages.rate_limit",
+          "specifiers": [
+            "RateLimit"
+          ]
+        },
+        {
+          "source": "gateway.store.base",
+          "specifiers": [
+            "VirtualKey"
+          ]
+        },
+        {
+          "source": "gateway.store.sqlite",
+          "specifiers": [
+            "hash_key"
+          ]
+        },
+        {
+          "source": "tests.fakes.clock",
+          "specifiers": [
+            "FakeClock"
+          ]
+        }
+      ],
+      "exports": [
+        "make_ctx",
+        "vkey",
+        "ok",
+        "FakeStore",
+        "test_build_chain_order",
+        "test_auth",
+        "test_revoked_key_is_unauthorized",
+        "test_rate_limit_stage",
+        "test_budget_stage",
+        "test_cache_key_ignores_stream_and_user",
+        "test_cache_ttl_and_lru",
+        "test_cache_skips_streams_and_nonzero_temperature"
+      ],
+      "totalLines": 148,
+      "hasStructuralAnalysis": true
+    },
+    "tests/unit/test_basics.py": {
+      "filePath": "tests/unit/test_basics.py",
+      "contentHash": "7746a22a8665dbf33f5782b752c018a3982174854dfeb3a5c02c25f1e281f1af",
+      "functions": [
+        {
+          "name": "lines",
+          "params": [],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "test_parse_sse_events_and_comments",
+          "params": [],
+          "exported": true,
+          "lineCount": 10
+        },
+        {
+          "name": "test_wrap_stream_completed_and_order",
+          "params": [],
+          "exported": true,
+          "lineCount": 17
+        },
+        {
+          "name": "test_wrap_stream_cancelled_closes_inner_first",
+          "params": [],
+          "exported": true,
+          "lineCount": 18
+        },
+        {
+          "name": "test_wrap_stream_error_outcome",
+          "params": [],
+          "exported": true,
+          "lineCount": 13
+        },
+        {
+          "name": "test_on_close_survives_task_cancellation",
+          "params": [],
+          "exported": true,
+          "lineCount": 21
+        },
+        {
+          "name": "test_cost_and_estimate",
+          "params": [],
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "test_token_bucket_refill",
+          "params": [],
+          "exported": true,
+          "lineCount": 10
+        },
+        {
+          "name": "test_breaker_opens_and_skips",
+          "params": [],
+          "exported": true,
+          "lineCount": 13
+        },
+        {
+          "name": "test_half_open_failure_reopens",
+          "params": [],
+          "exported": true,
+          "lineCount": 9
+        },
+        {
+          "name": "test_half_open_trial_released_on_429",
+          "params": [],
+          "exported": true,
+          "lineCount": 9
+        },
+        {
+          "name": "test_success_resets_failure_count",
+          "params": [],
+          "exported": true,
+          "lineCount": 7
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "asyncio",
+          "specifiers": [
+            "asyncio"
+          ]
+        },
+        {
+          "source": "pytest",
+          "specifiers": [
+            "pytest"
+          ]
+        },
+        {
+          "source": "gateway.config",
+          "specifiers": [
+            "Price"
+          ]
+        },
+        {
+          "source": "gateway.context",
+          "specifiers": [
+            "Usage"
+          ]
+        },
+        {
+          "source": "gateway.limiter.memory",
+          "specifiers": [
+            "MemoryLimiter"
+          ]
+        },
+        {
+          "source": "gateway.pricing",
+          "specifiers": [
+            "cost_usd",
+            "estimate_tokens"
+          ]
+        },
+        {
+          "source": "gateway.resilience.breaker",
+          "specifiers": [
+            "Breaker"
+          ]
+        },
+        {
+          "source": "gateway.sse",
+          "specifiers": [
+            "parse_sse"
+          ]
+        },
+        {
+          "source": "gateway.streams",
+          "specifiers": [
+            "wrap_stream"
+          ]
+        },
+        {
+          "source": "tests.fakes.clock",
+          "specifiers": [
+            "FakeClock"
+          ]
+        }
+      ],
+      "exports": [
+        "lines",
+        "test_parse_sse_events_and_comments",
+        "test_wrap_stream_completed_and_order",
+        "test_wrap_stream_cancelled_closes_inner_first",
+        "test_wrap_stream_error_outcome",
+        "test_on_close_survives_task_cancellation",
+        "test_cost_and_estimate",
+        "test_token_bucket_refill",
+        "test_breaker_opens_and_skips",
+        "test_half_open_failure_reopens",
+        "test_half_open_trial_released_on_429",
+        "test_success_resets_failure_count"
+      ],
+      "totalLines": 190,
+      "hasStructuralAnalysis": true
+    },
+    "tests/unit/test_config.py": {
+      "filePath": "tests/unit/test_config.py",
+      "contentHash": "96d1c48d273b410ec2062a789e63a6d76404d0eb6477d8bec792bf80886d52ba",
+      "functions": [
+        {
+          "name": "test_valid_config",
+          "params": [],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "test_missing_pricing_fails_startup",
+          "params": [],
+          "exported": true,
+          "lineCount": 5
+        },
+        {
+          "name": "test_unknown_provider",
+          "params": [],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "test_drain_must_cover_total_timeout",
+          "params": [],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "test_typo_in_key_is_rejected",
+          "params": [],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "test_example_config_loads_and_needs_keys",
+          "params": [],
+          "exported": true,
+          "lineCount": 6
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "pytest",
+          "specifiers": [
+            "pytest"
+          ]
+        },
+        {
+          "source": "pydantic",
+          "specifiers": [
+            "ValidationError"
+          ]
+        },
+        {
+          "source": "gateway.config",
+          "specifiers": [
+            "Config",
+            "ConfigError",
+            "load_config"
+          ]
+        },
+        {
+          "source": "tests.conftest",
+          "specifiers": [
+            "config_dict",
+            "make_config"
+          ]
+        }
+      ],
+      "exports": [
+        "test_valid_config",
+        "test_missing_pricing_fails_startup",
+        "test_unknown_provider",
+        "test_drain_must_cover_total_timeout",
+        "test_typo_in_key_is_rejected",
+        "test_example_config_loads_and_needs_keys"
+      ],
+      "totalLines": 47,
+      "hasStructuralAnalysis": true
+    }
+  }
+}
