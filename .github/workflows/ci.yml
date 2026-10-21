@@ -24,6 +24,37 @@ jobs:
       - uses: actions/checkout@v4
       - run: docker build -t llm-gateway:ci .
 
+  kind:
+    # Deploys the kind overlay with scripts/kind-up.sh and smoke-tests it: readiness, and a key
+    # write through /admin, which exercises the SQLite PVC and the NetworkPolicy.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: helm/kind-action@v1
+        with:
+          version: v0.30.0
+          install_only: true
+      - name: Dummy secrets (readiness only checks the store, not the providers)
+        run: |
+          {
+            echo OPENAI_API_KEY=dummy
+            echo ANTHROPIC_API_KEY=dummy
+            echo "ADMIN_TOKEN=$(openssl rand -hex 24)"
+          } > deploy/k8s/base/secrets.env
+      - run: ./scripts/kind-up.sh
+      - name: Smoke test
+        run: |
+          set -a; . deploy/k8s/base/secrets.env; set +a
+          curl -fsS localhost:8080/readyz
+          curl -fsS -X POST localhost:8080/admin/keys -H "Authorization: Bearer $ADMIN_TOKEN" \
+            -H 'content-type: application/json' -d '{"name": "ci"}' -o /dev/null
+      - name: Diagnostics
+        if: failure()
+        run: |
+          kubectl -n llm-gateway get all,pvc
+          kubectl -n llm-gateway describe pod
+          kubectl -n llm-gateway logs deploy/gateway --tail=100
+
   terraform:
     runs-on: ubuntu-latest
     defaults:

@@ -1,0 +1,24 @@
+# K1 on a local kind cluster: the k1 overlay with the locally built image, a NodePort Service
+# instead of the Ingress, and no cloud prerequisites. Create the cluster from
+# deploy/kind/cluster.yaml first, or run scripts/kind-up.sh.
+# There is no ingress controller, so /admin is reachable on localhost too; fine for local work.
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - ../k1
+patches:
+  - target: {kind: Service, name: gateway}
+    patch: |-
+      - op: add
+        path: /spec/type
+        value: NodePort
+      - op: add
+        path: /spec/ports/0/nodePort
+        value: 30080   # mapped to localhost:8080 in deploy/kind/cluster.yaml
+  - target: {kind: Ingress, name: gateway}
+    patch: |-
+      $patch: delete
+      apiVersion: networking.k8s.io/v1
+      kind: Ingress
+      metadata:
+        name: gateway
